@@ -1,0 +1,212 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorGray</item>
+        <item name="android:textViewStyle">@style/RobotoFont</item>
+    </style>
+    <style name="AppThemeSetting" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorGray</item>
+        <item name="android:textViewStyle">@style/RobotoFont</item>
+    </style>
+    <style name="Rating" parent="Base.Widget.AppCompat.RatingBar.Small">
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+    <style name="SwitchTheme" parent="Theme.AppCompat.Light">
+        <item name="android:colorControlActivated" tools:targetApi="lollipop">@color/colorPrimary</item>
+    </style>
+    <style name="RobotoFont" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/tab_text_selector</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+    </style>
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="AppThemeSlider" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorTextView</item>
+    </style>
+    <style name="SwitchButtonStyleMD" parent="SwitchButtonMD">
+        <item name="kswBackColor">@color/colorWhite</item>
+    </style>
+    <style name="edt_code">
+        <item name="android:textSize">@dimen/size_txt_code</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:inputType">number</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ThemeToolbar" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorGray</item>
+    </style>
+
+    <style name="SCBSwitch" parent="SwitchButtonMD">
+        <item name="colorControlActivated">#2fb35f</item>
+        <item name="colorSwitchThumbNormal">#f1f1f1</item>
+        <item name="android:colorForeground">#42221f1f</item>
+    </style>
+
+    <style name="StarRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/star_rating_bar_full</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+    <style name="DialogProgress" parent="@style/Theme.AppCompat">
+        <item name="colorAccent">@color/colorGreen</item>
+    </style>
+    <style name="DialogProgressBooking" parent="@style/Theme.AppCompat">
+        <item name="colorAccent">@color/colorGreen</item>
+    </style>
+
+    <style name="llRootItemUpdate">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?selectableItemBackground</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+    </style>
+
+    <style name="ImgItemUpdate">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="TvItemUpdate">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="ImgResultItemUpdate">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="ImgNextItemUpdate">
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:layout_marginRight">22dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="PbItemUpdate">
+        <item name="android:layout_width">14dp</item>
+        <item name="android:layout_height">14dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">22dp</item>
+        <item name="android:visibility">gone</item>
+
+    </style>
+
+    <style name="DivVertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">#f3f4f5</item>
+    </style>
+
+    <style name="layoutRootItemSetting">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+    <style name="textItemSetting">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="loading">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+    <style name="swItemSetting" parent="SwitchButtonMD">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:checked">true</item>
+        <item name="android:tint">@color/colorGreen</item>
+        <item name="android:colorAccent">@color/colorGreen</item>
+        <item name="colorControlActivated">#2fb35f</item>
+        <item name="colorSwitchThumbNormal">#f1f1f1</item>
+        <item name="android:colorForeground">#42221f1f</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <style name="ImgItemSetting">
+        <item name="android:layout_width">@dimen/size_persion</item>
+        <item name="android:layout_height">@dimen/size_persion</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="TextInforSetting">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:layout_marginLeft">60dp</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="WalletItemLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">13dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="WalletItemTitle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="WalletItemContent">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+            <item name="android:textSize">18sp</item>
+    </style>
+</resources>

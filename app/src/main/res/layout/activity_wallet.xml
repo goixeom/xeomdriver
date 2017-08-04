@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.goixeomdriver.Activity.WalletActivity">
+
+    <include layout="@layout/toolbar_back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:padding="16dp">
+
+        <com.goixeomdriver.View.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VÍ TÀI KHOẢN"
+            android:textColor="@color/colorGray"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/ic_wallet_2"
+
+            />
+
+        <com.goixeomdriver.View.CustomTextView
+            android:id="@+id/tv_taikhoan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textSize="@dimen/txt_pocket_total" />
+
+    </LinearLayout>
+
+    <View
+        style="@style/DivVertical"
+        android:background="@color/colorGray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <com.goixeomdriver.View.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="VÍ ĐI ĐƯỜNG"
+            android:textColor="@color/colorGray"
+            android:textStyle="bold" />
+
+        <com.goixeomdriver.View.CustomTextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorGray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/ic_wallet"
+
+            />
+
+        <com.goixeomdriver.View.CustomTextView
+            android:id="@+id/tv_diduong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/colorRed"
+            android:textStyle="bold"
+            android:textSize="@dimen/txt_pocket_total" />
+    </LinearLayout>
+
+    <View
+        style="@style/DivVertical"
+        android:background="@color/colorGray" />
+</LinearLayout>

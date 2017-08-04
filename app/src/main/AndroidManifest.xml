@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    package="com.goixeom">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.VIBRATE"/>
+    <application
+        android:name="com.goixeomdriver.application.MainApplication"
+        tool:replace="android:allowBackup"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_map_id" />
+
+        <service android:name="com.goixeomdriver.socket.SocketClient"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="socket.driver" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.goixeomdriver.socket.AutoRestartServiceReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="chayngam.restart2" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.goixeomdriver.socket.RestartReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="chayngam.restart.driver" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.goixeomdriver.socket.InternetReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+
+        <activity android:name="com.goixeomdriver.Activity.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.goixeomdriver.Activity.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.goixeomdriver.Activity.TakePassworkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.goixeomdriver.Activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name="com.goixeomdriver.Activity.SliderInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.goixeomdriver.Activity.AccuracyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.goixeomdriver.Activity.UpdateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.goixeomdriver.Activity.ActivityPrivacy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.goixeomdriver.Activity.NotificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.goixeomdriver.Activity.HistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.goixeomdriver.Activity.FAQActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.goixeomdriver.Activity.SettingActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.goixeomdriver.Activity.MapsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="me.iwf.photopicker.PhotoPickerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="me.iwf.photopicker.PhotoPagerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="com.goixeomdriver.Activity.ChoseRingtoneActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeSetting" />
+        <activity android:name="com.goixeomdriver.Activity.WalletActivity"  android:screenOrientation="portrait"/>
+        <activity android:name="com.goixeomdriver.Activity.PocketActivity"  android:screenOrientation="portrait"></activity>
+        <activity android:name="com.goixeomdriver.Activity.DetailBooking"  android:screenOrientation="portrait"></activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="ccbefe8bed73901cd45eea076d4c1c14d6aaeb63" />
+    </application>
+
+</manifest>

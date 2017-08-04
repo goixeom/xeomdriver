@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_alarm"
+            android:title="Thông báo" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_route"
+            android:title="Lịch sử chuyến đi" />
+        <item
+            android:id="@+id/nav_pocket"
+            android:icon="@drawable/ic_loi_nhuan"
+            android:title="Lợi nhuận" />
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/ic_vi_cua_toi"
+            android:title="Ví tài khoản" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_settings"
+            android:title="Cài đặt" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_operator"
+            android:title="Yêu cầu hỗ trợ" />
+
+    </group>
+
+</menu>

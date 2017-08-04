@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/ll_root_success_update"
+    android:paddingTop="60dp"
+    android:visibility="gone">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_reg" />
+
+    <com.goixeomdriver.View.CustomTextView
+        android:id="@+id/update3_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="15dp"
+        android:textStyle="bold"
+        android:text="@string/update_3" />
+
+    <com.goixeomdriver.View.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#999999"
+        android:text="Tài khoản của bạn đã được xác thực" />
+
+    <com.goixeomdriver.View.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="15dp"
+        android:foreground="?selectableItemBackground"
+        android:id="@+id/tv_go_main"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/circle_border"
+        android:gravity="center"
+        android:text="Nhận chuyến và đóng góp cho kinh tế Việt Nam"
+        android:textColor="@color/colorWhite"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+</LinearLayout>

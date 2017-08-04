@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorWhite"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:theme="@style/ThemeToolbar">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="right|center">
+
+                    <ImageView
+                        android:id="@+id/img_direction"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/ic_cursor" />
+
+                    <!--<Switch-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:scaleX="1.5"-->
+                        <!--android:scaleY="1.5"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:layout_gravity="center_vertical"-->
+                        <!--android:paddingLeft="16dp"-->
+                        <!--android:layout_marginRight="16dp"-->
+                        <!--android:gravity="center"-->
+                        <!--android:theme="@style/SCBSwitch"-->
+                        <!--android:visibility="visible" />-->
+                    <com.kyleduo.switchbutton.SwitchButton
+                        android:id="@+id/Switch"
+                        style="@style/SwitchButtonMD"
+                        app:kswThumbDrawable="@drawable/thumb_sw"
+                        app:kswThumbHeight="24dp"
+                        app:kswThumbWidth="24dp"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:paddingLeft="16dp"
+                        android:scaleX="1.5"
+                        android:scaleY="1.5"
+                        android:layout_marginRight="16dp"
+
+                        />
+                </LinearLayout>
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_maps" />
+
+
+</android.support.design.widget.CoordinatorLayout>

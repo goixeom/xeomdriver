@@ -1,0 +1,184 @@
+<resources>
+    <string name="app_name">Tài xế</string>
+    <string name="txt_dangky" formatted="false">
+        <![CDATA[
+        Bằng cách nhấp vào <b>ĐĂNG KÝ</b> tôi đồng ý rằng goixeom hoặc Công ty chủ quản của Goixeom có thể liên hệ với tôi qua Email SMS, hoặc điện thoại di động kể cả mục đích quảng cáo.
+        Tôi đã đọc vào đồng ý với các <b>Điều khoản</b> mà GOIXEOM quy định cho tài xế.
+        ]]>
+    </string>
+    <string name="dem_nguoc" formatted="false">
+        <![CDATA[
+        Gửi lại mã trong <b> <font color=\'#000000\'>%s</font></b>
+        ]]>
+    </string>
+    <string name="guilaima" formatted="false">
+        <![CDATA[
+         <font color=\'#000000\'>Gửi lại mã</font>
+        ]]>
+    </string>
+    <string name="hint_1"><font size="15">Tên đầy đủ</font></string>
+    <string name="hint_2"><font size="15">Địa chỉ Email</font></string>
+    <string name="hint_3"><font size="15">Số điện thoại</font></string>
+    <string name="hint_4"><font size="15">Mã giới thiệu (Nếu có)</font></string>
+    <string name="hint_5"><font size="15">Vui lòng nhập chính xác Email đăng ký</font></string>
+    <string name="hint_6"><font size="15">Nhập số điện thoại hoặc Email</font></string>
+    <string name="hint_7"><font size="15">Mật khẩu của bạn</font></string>
+
+    <string name="detail_1">Luôn đội mũ bảo hiểm khi tham gia giao thông, bảo vệ bạn và cộng đồng</string>
+    <string name="detail_2">Sử dụng ứng dụng Việt Nam là nội địa hóa sản phẩm, và thúc đẩy kinh tế phát triển</string>
+    <string name="detail_3">Không sử dụng điện thoại khi tham gia giao thông, tránh mất tập trung khi cầm lái</string>
+
+    <string name="update_1">Cảm ơn bạn đã ủng hộ ứng dụng Gọi Xe Ôm của Việt Nam. Để tiếp tục sử dụng ứng dụng vui lòng
+                            chụp ảnh các giấy tờ được liệt kê như bên dưới.
+    </string>
+    <string name="update_2">Vui lòng upload các hồ sơ còn thiếu để được trở thành tài xế</string>
+
+    <string name="update_3">
+        <![CDATA[
+        <font color=\'#999999\'><b>Chúc mừng</font> <font color=\'#2db45b\'>%s</font>
+        ]]>
+    </string>
+
+    <string name="update_3232">
+        <![CDATA[
+        <font color=\'#999999\'>\nTài khoản của bạn đã được xác thực</b></font>
+        ]]>
+    </string>
+    <string name="txt_accuracy" formatted="false">
+        <![CDATA[
+        <font color=\'#999999\'>Vui lòng nhập mã CODE vừa được gửi đến số điện thoại</font> <font color=\'#2db45b\'><b>%s</b></font>
+        ]]>
+    </string>
+    <string name="txt_toolbar_promo" formatted="false">
+        <![CDATA[
+        <b>MÃ <font color=\'#2db25d\'>KHUYẾN MẠI</b></font>
+        ]]>
+    </string>
+    <string name="txt_toolbar_history" formatted="false">
+        <![CDATA[
+        <b>LỊCH SỬ <font color=\'#2db25d\'>CHUYẾN ĐI</b></font>
+        ]]>
+    </string>
+    <string name="txt_toolbar_notification" formatted="false">
+        <![CDATA[
+        <b>THÔNG <font color=\'#2db25d\'>BÁO</b></font>
+        ]]>
+    </string>
+    <string name="txt_toolbar_discount" formatted="false">
+        <![CDATA[
+        <b>NHẬP MÃ <font color=\'#2db25d\'>KHUYẾN MẠI</b></font>
+        ]]>
+    </string>
+    <string name="txt_privacy" formatted="false">
+        <![CDATA[
+        <b><font color=\'#e76363\'>QUYỀN RIÊNG TƯ</b></font>
+        ]]>
+    </string>
+    <string name="txt_term" formatted="false">
+        <![CDATA[
+        <b><font color=\'#2db25d\'>ĐIỀU KHOẢN VÀ ĐIỀU KIỆN</b></font>
+        ]]>
+    </string>
+    <string name="txt_toolbar_setting" formatted="false">
+        <![CDATA[
+      <b>CÀI <font color=\'#2db25d\'>ĐẶT</b></font>
+        ]]>
+    </string>
+    <string name="txt_bike" formatted="false">
+        <![CDATA[
+        <font color=\'#000000\'><b>Honda</font> <font color=\'#e76363\'>CB400</b></font>
+        ]]>
+    </string>
+    <string name="txt_pay" formatted="false">
+        <![CDATA[
+        <font color=\'#2db45b\'>Chuyến đi này được áp dụng khuyến mại giảm giá</font> <font color=\'#f9ba48\'>%s đ</font>
+        <font color=\'#2db45b\'>Số tiền này sẽ được cộng tự động vào Ví tài khoản của bạn</font>
+        ]]>
+    </string>
+
+    <string name="txt_booking" formatted="false">
+        <![CDATA[
+        <b>ƯỚC TÍNH <font color=\'#2db25d\'>CƯỚC PHÍ</b></font>
+        ]]>
+    </string>
+    <string name="txt_driver" formatted="false">
+        <![CDATA[
+        <b>%s <font color=\'#e76363\'>%s</b></font>
+        ]]>
+    </string>
+    <string name="txt_toolbar_promotion" formatted="false">
+        <![CDATA[
+        <b>NHẬP MÃ <font color=\'#2db25d\'>KHUYẾN MÃI</b></font>
+        ]]>
+    </string>
+    <string name="txt_toolbar_faq" formatted="false">
+        <![CDATA[
+        <b>YÊU CẦU &<font color=\'#2db25d\'> HỖ TRỢ</b></font>
+        ]]>
+    </string>
+    <string name="txt_toolbar_wallet" formatted="false">
+        <![CDATA[
+        <b>VÍ <font color=\'#2db25d\'> TÀI KHOẢN</b></font>
+        ]]>
+    </string>
+    <string name="txt_pocket" formatted="false">
+        <![CDATA[
+        <b>LỢI  <font color=\'#2db25d\'> NHUẬN</b></font>
+        ]]>
+    </string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="google_map_id">AIzaSyDwvFTLMXpVUKGz9NDXVg7YlL2SCMiLpl8</string>
+
+
+    <string name="unknow_error">Đã có lỗi xảy ra. Vui lòng thử lại sau!</string>
+
+    <string name="unknow_error_code">Đã có lỗi xảy ra. Vui lòng thử lại sau!\n[%s]</string>
+    <string name="missing_data">Missing data</string>
+    <string name="pass_incorrectly">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failt">Your username or password is incorrect. please try again!</string>
+    <string name="emaill_incorrectly">Email is incorrect. Please try again!</string>
+    <string name="emaill_exist">Email này không tồn tại!</string>
+    <string name="please_enter_email">"Email sai định dạng! "</string>
+    <string name="enter_pass">"Vui lòng nhập password! "</string>
+    <string name="please_enter_fname">Vui lòng nhập họ tên!</string>
+    <string name="please_enter_lname">Vui lòng nhập tên!</string>
+    <string name="please_enter_email_2">Vui lòng nhập email!</string>
+    <string name="empty_phone">Vui lòng nhập số điện thoại!</string>
+    <string name="please_enter_birth">Please enter your birthday!</string>
+    <string name="please_enter_phone">Số điện thoại sai định dạng</string>
+    <string name="repassword">Repeat Paswword</string>
+    <string name="repass_incorrectly">Your passwords do not match</string>
+    <string name="login">Login</string>
+    <string name="lbl_forgot_password">Forgot password</string>
+    <string name="forgot_password_msg">Hệ thống đã gửi lại mật khẩu qua email bạn đăng ký!.</string>
+    <string name="dismis">OK</string>
+    <string name="error">Thông báo</string>
+    <string name="fb_id">805514846270648</string>
+    <string name="api_key_gplus">1026901072455-av9jgespivshlsnst4kkos18shhb7ou2.apps.googleusercontent.com</string>
+    <string name="phone_exist">Số điện thoại đã được đăng ký!</string>
+    <string name="error_promotion">Mã khuyến mại không tồn tại!</string>
+    <string name="txt_promotion_valid">Được giảm giá</string>
+    <string name="disconnect">Mất kết nối</string>
+    <string name="reconnect">Đang kết nối</string>
+    <string name="connected">Đã kết nối</string>
+    <string name="t_i_xe_ang_n_trong_00_00">Cách điểm đến  %s</string>
+    <string name="title_activity_execute_booking">ExecuteBookingActivity</string>
+    <string name="c_n_l_i_200_k_t">Còn lại %d ký tự</string>
+    <string name="incorrect_name">Họ tên không được chứa các ký tự đặc biệt và chữ số</string>
+    <string name="txt_duration" formatted="false">
+        <![CDATA[
+        %s <b>%s</b>
+        ]]>
+    </string>
+    <string name="txt_detail" formatted="false">
+        <![CDATA[
+        <b>CHI TIẾT <font color=\'#2db25d\'>CHUYẾN ĐI</b></font>
+        ]]>
+    </string>
+</resources>

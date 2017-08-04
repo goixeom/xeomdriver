@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_height"
+    android:background="@color/colorGreen"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:paddingTop="16dp"
+        android:src="@drawable/anh"
+        app:civ_border_color="#ffffff"
+        app:civ_border_width="2dp" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+<LinearLayout
+    android:id="@+id/ll_rating_bar"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <me.zhanghai.android.materialratingbar.MaterialRatingBar
+        android:id="@+id/rating_bar"
+        style="@style/Widget.MaterialRatingBar.RatingBar"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:isIndicator="true"
+        android:max="5"
+        android:rating="0"
+        android:numStars="5"
+        android:progressTint="@color/colorAccent"
+        android:secondaryProgressTint="@android:color/transparent" />
+
+
+
+    <com.goixeomdriver.View.CustomTextView
+        android:id="@+id/tv_vote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="4.5"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/rating_bar"
+        app:layout_constraintLeft_toRightOf="@+id/rating_bar" />
+</LinearLayout>
+
+
+        <com.goixeomdriver.View.CustomTextView
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Trần Tiến Công"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/ll_rating_bar"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_marginTop="4dp" />
+
+        <com.goixeomdriver.View.CustomTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="29B-209.27"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/colorWhite"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:id="@+id/tv_number"
+            app:layout_constraintTop_toBottomOf="@+id/ll_rating_bar"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_marginTop="26dp" />
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

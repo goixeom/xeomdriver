@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_back" />
+
+    <LinearLayout
+        android:id="@+id/ll_ring_gg"
+        style="@style/layoutRootItemSetting"
+        android:layout_marginTop="25dp">
+
+        <ImageView
+            style="@style/ImgItemSetting"
+            app:srcCompat="@drawable/ic_music_player" />
+        <com.goixeomdriver.View.CustomTextView
+            style="@style/textItemSetting"
+            android:text="Banana Song" />
+
+        <CheckBox
+            android:visibility="invisible"
+
+            android:id="@+id/cb_gg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            />
+    </LinearLayout>
+    <View
+        style="@style/DivVertical"/>
+    <LinearLayout
+        android:id="@+id/ll_ring_ga"
+        style="@style/layoutRootItemSetting"
+        >
+
+        <ImageView
+            style="@style/ImgItemSetting"
+            app:srcCompat="@drawable/ic_music_player" />
+
+        <com.goixeomdriver.View.CustomTextView
+            android:id="@+id/customTextView3"
+            style="@style/textItemSetting"
+            android:text="Despacito" />
+
+        <CheckBox
+            android:visibility="invisible"
+
+            android:id="@+id/cb_ga_chong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            />
+    </LinearLayout>
+    <View
+        style="@style/DivVertical"/>
+    <LinearLayout
+        android:id="@+id/ll_ring_ga_gay"
+        style="@style/layoutRootItemSetting"
+      >
+
+        <ImageView
+            style="@style/ImgItemSetting"
+            app:srcCompat="@drawable/ic_music_player" />
+        <com.goixeomdriver.View.CustomTextView
+            style="@style/textItemSetting"
+            android:text="Mr.Taxi" />
+
+        <CheckBox
+            android:visibility="invisible"
+
+            android:id="@+id/cb_ga_gay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            />
+    </LinearLayout>
+    <View
+    style="@style/DivVertical"/>
+    <LinearLayout
+        android:id="@+id/ll_ring_ten"
+        style="@style/layoutRootItemSetting"
+        >
+
+        <ImageView
+            style="@style/ImgItemSetting"
+            app:srcCompat="@drawable/ic_music_player" />
+        <com.goixeomdriver.View.CustomTextView
+            style="@style/textItemSetting"
+            android:text="Shape Of You" />
+
+        <CheckBox
+            android:visibility="invisible"
+            android:id="@+id/cb_ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            />
+    </LinearLayout>
+
+    <View
+        style="@style/DivVertical"/>
+    <LinearLayout
+        android:id="@+id/ll_root_5"
+        style="@style/layoutRootItemSetting"
+        >
+
+        <ImageView
+            style="@style/ImgItemSetting"
+            app:srcCompat="@drawable/ic_music_player" />
+        <com.goixeomdriver.View.CustomTextView
+            style="@style/textItemSetting"
+            android:text="Very Super Tone Ever" />
+
+        <CheckBox
+            android:visibility="invisible"
+            android:id="@+id/cb_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            />
+    </LinearLayout>
+
+    <View
+        style="@style/DivVertical"/>
+
+</LinearLayout>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.goixeomdriver.Activity.WalletActivity">
+    <include layout="@layout/toolbar_back" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background"
+                android:padding="16dp">
+
+                <com.goixeomdriver.View.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LỢI NHUẬN HÔM NAY"
+                    android:textColor="@color/colorGray"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorWhite"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        app:srcCompat="@drawable/ic_wallet_2"
+
+                        />
+
+                    <com.goixeomdriver.View.CustomTextView
+                        android:id="@+id/tv_day_total"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/txt_pocket_total" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/WalletItemLayout">
+
+                    <com.goixeomdriver.View.CustomTextView
+                        style="@style/WalletItemTitle"
+                        android:text="Số chuyến nhận" />
+
+                    <com.goixeomdriver.View.CustomTextView
+                        android:id="@+id/tv_day_booking"
+                        style="@style/WalletItemContent"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout style="@style/WalletItemLayout">
+
+                    <com.goixeomdriver.View.CustomTextView
+                        style="@style/WalletItemTitle"
+                        android:text="Số Km di chuyển" />
+
+                    <com.goixeomdriver.View.CustomTextView
+                        android:id="@+id/tv_day_km"
+                        style="@style/WalletItemContent"
+                       />
+                </LinearLayout>
+
+                <LinearLayout style="@style/WalletItemLayout">
+
+                    <com.goixeomdriver.View.CustomTextView
+                        style="@style/WalletItemTitle"
+                        android:text="Chi phí trung bình/Chuyến" />
+
+                    <com.goixeomdriver.View.CustomTextView
+                        android:id="@+id/tv_day_pocket"
+                        style="@style/WalletItemContent"
+                         />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                style="@style/DivVertical"
+                android:background="@color/colorGray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <com.goixeomdriver.View.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="THỐNG KÊ TUẦN"
+                    android:textColor="@color/colorGray"
+                    android:textStyle="bold" />
+
+                <com.goixeomdriver.View.CustomTextView
+                    android:id="@+id/tv_date_week"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lần nạp cuối 25/09/1996"
+                    android:textColor="@color/colorGray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorWhite"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        app:srcCompat="@drawable/ic_wallet_2"
+
+                        />
+
+                    <com.goixeomdriver.View.CustomTextView
+                        android:id="@+id/tv_week_total"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:textColor="@color/colorRed"
+                        android:textStyle="bold"
+
+                        android:textSize="@dimen/txt_pocket_total" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/WalletItemLayout">
+
+                    <com.goixeomdriver.View.CustomTextView
+                        style="@style/WalletItemTitle"
+                        android:text="Số chuyến nhận" />
+
+                    <com.goixeomdriver.View.CustomTextView
+                        android:id="@+id/tv_week_booking"
+                        style="@style/WalletItemContent"
+                      />
+                </LinearLayout>
+
+
+                <LinearLayout style="@style/WalletItemLayout">
+
+                    <com.goixeomdriver.View.CustomTextView
+                        style="@style/WalletItemTitle"
+                        android:text="Số Km di chuyển" />
+
+                    <com.goixeomdriver.View.CustomTextView
+                        android:id="@+id/tv_week_km"
+                        style="@style/WalletItemContent"
+                     />
+                </LinearLayout>
+
+                <LinearLayout style="@style/WalletItemLayout">
+
+                    <com.goixeomdriver.View.CustomTextView
+                        style="@style/WalletItemTitle"
+                        android:text="Chi phí trung bình/Chuyến" />
+
+                    <com.goixeomdriver.View.CustomTextView
+                        android:id="@+id/tv_week_price"
+                        style="@style/WalletItemContent"
+                      />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                style="@style/DivVertical"
+                android:background="@color/colorGray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <com.goixeomdriver.View.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="THỐNG KÊ THÁNG"
+                    android:textColor="@color/colorGray"
+                    android:textStyle="bold" />
+
+                <com.goixeomdriver.View.CustomTextView
+                    android:id="@+id/tv_date_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lần nạp cuối 25/09/1996"
+                    android:textColor="@color/colorGray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorWhite"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        app:srcCompat="@drawable/ic_wallet_2"
+
+                        />
+
+                    <com.goixeomdriver.View.CustomTextView
+                        android:id="@+id/tv_month_total"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:textStyle="bold"
+android:textColor="@color/colorGreen"
+                        android:textSize="@dimen/txt_pocket_total" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/WalletItemLayout">
+
+                    <com.goixeomdriver.View.CustomTextView
+                        style="@style/WalletItemTitle"
+                        android:text="Số chuyến nhận" />
+
+                    <com.goixeomdriver.View.CustomTextView
+                        android:id="@+id/tv_month_booking"
+                        style="@style/WalletItemContent"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout style="@style/WalletItemLayout">
+
+                    <com.goixeomdriver.View.CustomTextView
+                        style="@style/WalletItemTitle"
+                        android:text="Số Km di chuyển" />
+
+                    <com.goixeomdriver.View.CustomTextView
+                        android:id="@+id/tv_month_km"
+                        style="@style/WalletItemContent"
+                        />
+                </LinearLayout>
+
+                <LinearLayout style="@style/WalletItemLayout">
+
+                    <com.goixeomdriver.View.CustomTextView
+                        style="@style/WalletItemTitle"
+                        android:text="Chi phí trung bình/Chuyến" />
+
+                    <com.goixeomdriver.View.CustomTextView
+                        android:id="@+id/tv_month_price"
+                        style="@style/WalletItemContent"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                style="@style/DivVertical"
+                android:background="@color/colorGray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background"
+                android:orientation="horizontal"
+                android:padding="16dp"></LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

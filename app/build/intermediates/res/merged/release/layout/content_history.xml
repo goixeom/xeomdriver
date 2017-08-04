@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@color/background"
+android:orientation="vertical"
+    >
+<include layout="@layout/toolbar_back"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.lhh.ptrrv.library.PullToRefreshRecyclerView
+            android:id="@+id/rcv"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.lhh.ptrrv.library.PullToRefreshRecyclerView>
+        <ImageView
+            android:id="@+id/img_empty"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="80dp"
+            app:srcCompat="@drawable/ic_no_trip" />
+<ProgressBar
+    style="@style/loading"
+    android:id="@+id/loading"/>
+    </FrameLayout>
+
+
+</LinearLayout>

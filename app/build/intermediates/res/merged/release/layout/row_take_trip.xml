@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/take_trip_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/toolbar"
+    android:background="@color/colorBlue"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:visibility="gone"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.06">
+
+        <com.goixeomdriver.View.CustomTextView
+            android:id="@+id/tv_time_take_trip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="Ngày tháng năm"
+            android:textColor="@color/colorGreen"
+            android:textSize="13dp" />
+
+        <com.goixeomdriver.View.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giờ phút"
+            android:textColor="@color/colorGreen"
+            android:textSize="13dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--<ProgressBar-->
+        <!--android:id="@+id/progressBar"-->
+        <!--style="?android:attr/progressBarStyleHorizontal"-->
+        <!--android:layout_width="180dp"-->
+        <!--android:layout_height="180dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:background="@drawable/border_circle_1"-->
+        <!--android:max="100"-->
+        <!--android:progress="95"-->
+        <!--android:progressDrawable="@drawable/progressbarstyleone" />-->
+        <com.eralp.circleprogressview.CircleProgressView
+            android:id="@+id/progressBar"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:cpv_background_circle_color="#283d36"
+            app:cpv_background_circle_width="8dp"
+            app:cpv_circle_color="@color/colorGreen"
+            app:cpv_circle_width="5dp"
+            app:cpv_text_color="#fff"
+            app:cpv_text_prefix=""
+            app:cpv_text_size="60" />
+
+        <com.goixeomdriver.View.CustomTextView
+            android:id="@+id/tv_time_countdown_take_trip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="58dp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/size_margin_big">
+
+        <include layout="@layout/row_place_1" />
+
+        <com.goixeomdriver.View.CustomTextView
+            android:id="@+id/tv_distance_take_trip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_margin_big"
+            android:layout_marginTop="15dp"
+            android:layout_toStartOf="@+id/place_layout"
+            android:paddingTop="20dp"
+            android:rotation="270"
+            android:singleLine="true"
+            android:text="5km"
+            android:textColor="@color/colorGray"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <com.goixeomdriver.View.CustomTextView
+        android:id="@+id/tv_cost_take_trip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="36.000 đ"
+        android:textColor="@color/colorAccent"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ll_root_accept_take_trip"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.1"
+        android:background="@color/colorGreen"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/ic_like" />
+
+        <com.goixeomdriver.View.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:text="NHẬN CHUYẾN"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.goixeomdriver.View.CustomTextView
+        android:id="@+id/cancel_txt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.1"
+        android:background="@color/colorRed"
+        android:gravity="center"
+        android:text="BỎ QUA CHUYẾN NÀY"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"> <!-- Remove <selector> wehn you are using <layer-list> -->
+    <item>
+        <!-- Our grey ring, 1st element of our list -->
+        <shape
+            android:innerRadius="82dp"
+            android:shape="ring"
+            android:thicknessRatio="24"
+            android:useLevel="false"> <!-- Higher values, thinner line -->
+        </shape>
+    </item>
+
+    <item>
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+            android:fromDegrees="90"
+            android:toDegrees="90">
+            <!-- Our red ring, 2nd element of our list -->
+            <shape
+                android:innerRadius="82dp"
+                android:shape="ring"
+                android:thicknessRatio="24"
+                android:useLevel="true">
+                <solid android:color="@color/colorGreen"></solid>
+            </shape>
+        </rotate>
+    </item>
+
+</layer-list>

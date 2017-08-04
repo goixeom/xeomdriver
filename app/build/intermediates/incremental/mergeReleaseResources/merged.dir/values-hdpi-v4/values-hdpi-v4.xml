@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fb">24dp</dimen>
+    <dimen name="h_ic_dialog">24dp</dimen>
+    <dimen name="icon_booking">28dp</dimen>
+    <dimen name="margin_empty">80dp</dimen>
+    <dimen name="margin_top_auth">25dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_height">140dp</dimen>
+    <dimen name="padding_img">110dp</dimen>
+    <dimen name="radius">8dp</dimen>
+    <dimen name="radius_dialog">5dp</dimen>
+    <dimen name="size_add">51dp</dimen>
+    <dimen name="size_dialog_driver_trip">18sp</dimen>
+    <dimen name="size_dot_map">16dp</dimen>
+    <dimen name="size_help">128dp</dimen>
+    <dimen name="size_icon_notification">24dp</dimen>
+    <dimen name="size_img_avt_dialog">60dp</dimen>
+    <dimen name="size_ll_add">64dp</dimen>
+    <dimen name="size_margin_booking">24dp</dimen>
+    <dimen name="size_margin_dot_map">22dp</dimen>
+    <dimen name="size_margin_dot_map_2">22dp</dimen>
+    <dimen name="size_margin_line_map">28dp</dimen>
+    <dimen name="size_marker_w">100dp</dimen>
+    <dimen name="size_ok_dialog">48dp</dimen>
+    <dimen name="size_persion">18dp</dimen>
+    <dimen name="size_sw_setting">24dp</dimen>
+    <dimen name="size_text_booking">12sp</dimen>
+    <dimen name="size_text_cost">30sp</dimen>
+    <dimen name="size_text_rate_dialog">24dp</dimen>
+    <dimen name="size_txt_code">45dp</dimen>
+    <dimen name="text_add_dialog">18sp</dimen>
+    <dimen name="text_km_dialog">16sp</dimen>
+    <dimen name="text_name_dialog">16sp</dimen>
+    <dimen name="text_number_dialog">18sp</dimen>
+    <dimen name="text_price_dialog">24sp</dimen>
+    <dimen name="w_dialog">18dp</dimen>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle.Common">
+          <item name="barLength">18.66dp</item>
+          <item name="gapBetweenBars">3.33dp</item>
+          <item name="drawableSize">24dp</item>
+     </style>
+</resources>

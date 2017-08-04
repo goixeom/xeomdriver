@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/update_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_root_baohiem"
+        style="@style/llRootItemUpdate">
+
+        <ImageView
+            app:srcCompat="@drawable/ic_id_card"
+            style="@style/ImgItemUpdate" />
+
+        <com.goixeomdriver.View.CustomTextView
+            android:text="Bảo hiểm xe/Công ty bảo hiểm"
+            style="@style/TvItemUpdate" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/img_result_baohiem"
+                app:srcCompat="@drawable/ic_success"
+                style="@style/ImgResultItemUpdate" />
+
+            <ImageView
+                android:id="@+id/img_next_baohiem"
+                app:srcCompat="@drawable/ic_play_circle"
+                style="@style/ImgNextItemUpdate" />
+            <ProgressBar
+                android:id="@+id/progress_baohiem"
+                style="@style/PbItemUpdate" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/DivVertical" />
+</LinearLayout>

@@ -1,0 +1,585 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:2:1-120:12
+	package
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:4:5-26
+		INJECTED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml
+		INJECTED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml
+	xmlns:tool
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:3:5-50
+	android:versionName
+		INJECTED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml
+		INJECTED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml
+		INJECTED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:7:22-72
+uses-permission#android.permission.INTERNET
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\DuongKK\.android\build-cache\2ad700f9a8b42659e93416e69bb8754dc0c1ac73\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\DuongKK\.android\build-cache\96d4db9dfa464ac2847772bd65885c3a572f2dc5\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-perf:11.0.2] C:\Users\DuongKK\.android\build-cache\431611396032dd85e1d078e01016e5d926a019fc\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:20:5-66
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\DuongKK\.android\build-cache\dc74d159ad96858d45f491eac192ce658a972d31\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\DuongKK\.android\build-cache\785e4c09b265329ed794e030fda8c7d3b8dbd5f6\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\DuongKK\.android\build-cache\8120c3f0d931024f9130902cbde7b1c13f26cdab\output\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\DuongKK\.android\build-cache\1f42e9e40300694edf568a6af8fc1a387e55afc6\output\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\DuongKK\.android\build-cache\4bbb202a8ecc7dfe0d5cc8317970cc05fee523ad\output\AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.CAMERA
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:10:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:13:1-61
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:13:18-59
+application
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:14:5-118:19
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\DuongKK\.android\build-cache\7bd7b80c17801e4926f4737ed55d754654abd4b3\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DuongKK\.android\build-cache\e25b2cb3ba4b9721ac26af729fdb62572d207b74\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\DuongKK\.android\build-cache\fb48d3726edba327cf31a3ec4a3edc9befd1a6b6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\DuongKK\.android\build-cache\11b45bc2bcf032ae6196e7e9d64b97a2ed238470\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-places:11.0.2] C:\Users\DuongKK\.android\build-cache\3665e538902210cd5d1985404066c848e0b3e5a5\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\DuongKK\.android\build-cache\2ad700f9a8b42659e93416e69bb8754dc0c1ac73\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\DuongKK\.android\build-cache\e9b33cc3f5bf7dc14237be078beb38541b51c835\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\DuongKK\.android\build-cache\7a9b03acbfe3c216a34eb86b245349b5c205ed7f\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.firebase:firebase-core:11.0.2] C:\Users\DuongKK\.android\build-cache\1725b894aac8667278034910919cd605e74fc537\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\DuongKK\.android\build-cache\96d4db9dfa464ac2847772bd65885c3a572f2dc5\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-perf:11.0.2] C:\Users\DuongKK\.android\build-cache\431611396032dd85e1d078e01016e5d926a019fc\output\AndroidManifest.xml:23:5-25:19
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.2] C:\Users\DuongKK\.android\build-cache\fff08735ccb10a87999de7e4a4158c9362dcb6bf\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\DuongKK\.android\build-cache\a5b7ac9b7e806f180ad79092199c5695c09653c4\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.2] C:\Users\DuongKK\.android\build-cache\2e05a61ee253ed22761243b240dab24124b761eb\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\DuongKK\.android\build-cache\6a93550970fec10ab5f4ed875c81b2ab0cce661d\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\DuongKK\.android\build-cache\b12c964ccd983c60e151fa03b729da75335283d9\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\DuongKK\.android\build-cache\dddcc95a7ddb4af7eb627402e53e39c54e82fa8e\output\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bmarrdev:android-DecoView-charting:v0.9.3] C:\Users\DuongKK\.android\build-cache\55a5f9f1d02ecbdc27132eee787fe624c2e80459\output\AndroidManifest.xml:11:5-14:19
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\DuongKK\.android\build-cache\a654433d4f730ab94333ca2dd6ee8808bab6f79d\output\AndroidManifest.xml:9:5-20
+MERGED from [com.github.doctoror.geocoder:library:1.0.0] C:\Users\DuongKK\.android\build-cache\8f8bfdd4c7e428fd113fd7bf628fd50d4f1d6f15\output\AndroidManifest.xml:11:5-14:19
+MERGED from [com.afollestad.material-dialogs:core:0.9.0.1] C:\Users\DuongKK\.android\build-cache\53187e063d4722a57f3fb22794458e7072abee0d\output\AndroidManifest.xml:13:5-20
+MERGED from [homhomlin.lib:ptrrv-library:1.3.1] C:\Users\DuongKK\.android\build-cache\a9a6687b63d939e5b4f16ea8b79fac8c7ac6aa87\output\AndroidManifest.xml:9:5-10:19
+MERGED from [com.github.eralpyucel:CircleProgressView:v1.1] C:\Users\DuongKK\.android\build-cache\ee902b4175d9cd2a688de356f59f24abda3b4509\output\AndroidManifest.xml:11:5-15:19
+MERGED from [me.iwf.photopicker:PhotoPicker:0.8.11] C:\Users\DuongKK\.android\build-cache\b056da086f9f97011ce5967e67308181c0cd5546\output\AndroidManifest.xml:11:5-21:19
+MERGED from [com.github.aakira:expandable-layout:1.5.1] C:\Users\DuongKK\.android\build-cache\48366e82522ec97e741e7eb8f68e4d45f659623a\output\AndroidManifest.xml:12:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\DuongKK\.android\build-cache\dc74d159ad96858d45f491eac192ce658a972d31\output\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\DuongKK\.android\build-cache\785e4c09b265329ed794e030fda8c7d3b8dbd5f6\output\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\DuongKK\.android\build-cache\8120c3f0d931024f9130902cbde7b1c13f26cdab\output\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\DuongKK\.android\build-cache\1f42e9e40300694edf568a6af8fc1a387e55afc6\output\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\DuongKK\.android\build-cache\4bbb202a8ecc7dfe0d5cc8317970cc05fee523ad\output\AndroidManifest.xml:31:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\DuongKK\.android\build-cache\77c1760345ce21c7d60a8066084bd228a54d3c4c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\DuongKK\.android\build-cache\5cea061b36c1d3103fb769c48e985cdb9e6686a9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\DuongKK\.android\build-cache\2e5f0b0b9bf9a7a281df4ba65e7c55459b67e7d0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\DuongKK\.android\build-cache\04ade500894ec9616d182ae7f88fb40cf35a1f81\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\DuongKK\.android\build-cache\63d395f972e6018b246ba1158a038146d2f64c17\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\DuongKK\.android\build-cache\803bd023a9b6f5c32a86d8915bd10cf6c979e934\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\DuongKK\.android\build-cache\58d1405ac5036eefbf0a96bf8930113e7b46cef0\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\DuongKK\.android\build-cache\1b22043426095c6fb693707ad99de4c4bfaf9691\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\DuongKK\.android\build-cache\ccbb085ae60bf418847db4e917fb8ae82e47db18\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:19:9-41
+	android:supportsRtl
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:21:9-35
+	android:roundIcon
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:20:9-54
+	android:allowBackup
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:17:9-36
+		REJECTED from [com.github.bmarrdev:android-DecoView-charting:v0.9.3] C:\Users\DuongKK\.android\build-cache\55a5f9f1d02ecbdc27132eee787fe624c2e80459\output\AndroidManifest.xml:12:9-35
+		REJECTED from [com.github.doctoror.geocoder:library:1.0.0] C:\Users\DuongKK\.android\build-cache\8f8bfdd4c7e428fd113fd7bf628fd50d4f1d6f15\output\AndroidManifest.xml:12:9-35
+		REJECTED from [com.github.eralpyucel:CircleProgressView:v1.1] C:\Users\DuongKK\.android\build-cache\ee902b4175d9cd2a688de356f59f24abda3b4509\output\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:18:9-43
+	android:theme
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:22:9-40
+	tool:replace
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:16:9-43
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:15:9-69
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:23:9-25:53
+	android:value
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:25:13-50
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:24:13-58
+service#com.goixeomdriver.socket.SocketClient
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:27:9-32:19
+	android:stopWithTask
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:28:13-41
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:27:18-70
+intent-filter#socket.driver
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:29:13-31:29
+action#socket.driver
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:30:17-56
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:30:25-53
+receiver#com.goixeomdriver.socket.AutoRestartServiceReceiver
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:33:9-38:20
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:33:19-85
+intent-filter#android.intent.action.BOOT_COMPLETED+chayngam.restart2
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:34:13-37:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:35:17-79
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:35:25-76
+action#chayngam.restart2
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:36:17-60
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:36:25-57
+receiver#com.goixeomdriver.socket.RestartReceiver
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:39:9-44:20
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:39:19-74
+intent-filter#android.intent.action.BOOT_COMPLETED+chayngam.restart.driver
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:40:13-43:29
+action#chayngam.restart.driver
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:42:17-66
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:42:25-63
+receiver#com.goixeomdriver.socket.InternetReceiver
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:45:9-50:20
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:45:19-75
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE+android.net.wifi.WIFI_STATE_CHANGED
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:46:13-49:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:47:17-79
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:47:25-76
+action#android.net.wifi.WIFI_STATE_CHANGED
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:48:17-78
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:48:25-75
+activity#com.goixeomdriver.Activity.SplashScreenActivity
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:53:9-59:20
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:53:19-81
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:54:13-58:29
+action#android.intent.action.MAIN
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:55:17-69
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:55:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:57:17-77
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:57:27-74
+activity#com.goixeomdriver.Activity.RegisterActivity
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:60:9-62:52
+	android:screenOrientation
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:62:13-49
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:61:13-71
+activity#com.goixeomdriver.Activity.TakePassworkActivity
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:63:9-65:52
+	android:screenOrientation
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:65:13-49
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:64:13-75
+activity#com.goixeomdriver.Activity.LoginActivity
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:66:9-70:46
+	android:screenOrientation
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:68:13-49
+	android:windowSoftInputMode
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:69:13-60
+	android:theme
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:70:13-44
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:67:13-68
+activity#com.goixeomdriver.Activity.SliderInfoActivity
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:71:9-73:52
+	android:screenOrientation
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:73:13-49
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:72:13-73
+activity#com.goixeomdriver.Activity.AccuracyActivity
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:74:9-76:52
+	android:screenOrientation
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:76:13-49
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:75:13-71
+activity#com.goixeomdriver.Activity.UpdateActivity
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:77:9-79:52
+	android:screenOrientation
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:79:13-49
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:78:13-69
+activity#com.goixeomdriver.Activity.ActivityPrivacy
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:80:9-82:52
+	android:screenOrientation
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:82:13-49
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:81:13-70
+activity#com.goixeomdriver.Activity.NotificationActivity
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:83:9-85:52
+	android:screenOrientation
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:85:13-49
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:84:13-75
+activity#com.goixeomdriver.Activity.HistoryActivity
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:86:9-88:52
+	android:screenOrientation
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:88:13-49
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:87:13-70
+activity#com.goixeomdriver.Activity.FAQActivity
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:89:9-91:52
+	android:screenOrientation
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:91:13-49
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:90:13-66
+activity#com.goixeomdriver.Activity.SettingActivity
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:92:9-95:15
+	android:screenOrientation
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:94:13-49
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:93:13-70
+activity#com.goixeomdriver.Activity.MapsActivity
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:96:9-99:47
+	android:screenOrientation
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:98:13-49
+	android:theme
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:99:13-44
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:97:13-67
+activity#me.iwf.photopicker.PhotoPickerActivity
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:100:9-103:66
+	android:screenOrientation
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:102:13-49
+	android:theme
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:103:13-63
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:101:13-66
+activity#me.iwf.photopicker.PhotoPagerActivity
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:104:9-107:66
+	android:screenOrientation
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:106:13-49
+	android:theme
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:107:13-63
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:105:13-65
+activity#com.goixeomdriver.Activity.ChoseRingtoneActivity
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:108:9-111:54
+	android:screenOrientation
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:110:13-49
+	android:theme
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:111:13-51
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:109:13-76
+activity#com.goixeomdriver.Activity.WalletActivity
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:112:9-115
+	android:screenOrientation
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:112:77-113
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:112:19-75
+activity#com.goixeomdriver.Activity.PocketActivity
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:113:9-125
+	android:screenOrientation
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:113:77-113
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:113:19-75
+activity#com.goixeomdriver.Activity.DetailBooking
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:114:9-124
+	android:screenOrientation
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:114:76-112
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:114:19-74
+meta-data#io.fabric.ApiKey
+ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:115:9-117:72
+	android:value
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:117:13-69
+	android:name
+		ADDED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml:116:13-44
+uses-sdk
+INJECTED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\DuongKK\.android\build-cache\21e24a12b45549e8354640a3b647b5245852f851\output\AndroidManifest.xml:18:5-42
+MERGED from [de.keyboardsurfer.android.widget:crouton:1.8.5] C:\Users\DuongKK\.android\build-cache\9b0814af6b8ce4e8432207c597d1a3b94c655368\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\DuongKK\.android\build-cache\7bd7b80c17801e4926f4737ed55d754654abd4b3\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DuongKK\.android\build-cache\e25b2cb3ba4b9721ac26af729fdb62572d207b74\output\AndroidManifest.xml:5:5-7:41
+MERGED from [me.relex:circleindicator:1.2.2] C:\Users\DuongKK\.android\build-cache\8faebabf9dbb405b386b867414db06b79d4e2200\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\DuongKK\.android\build-cache\fb48d3726edba327cf31a3ec4a3edc9befd1a6b6\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] C:\Users\DuongKK\.android\build-cache\11b45bc2bcf032ae6196e7e9d64b97a2ed238470\output\AndroidManifest.xml:20:5-44
+MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\DuongKK\.android\build-cache\1ade2e43d2594ad8fdd6e5a9b2dcd72c623579c4\output\AndroidManifest.xml:7:5-43
+MERGED from [me.zhanghai.android.materialratingbar:library:1.0.2] C:\Users\DuongKK\.android\build-cache\04688d618bdd4491a59852a1f61d8091f4d0dd1d\output\AndroidManifest.xml:12:5-14:41
+MERGED from [com.google.android.gms:play-services-places:11.0.2] C:\Users\DuongKK\.android\build-cache\3665e538902210cd5d1985404066c848e0b3e5a5\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\DuongKK\.android\build-cache\2ad700f9a8b42659e93416e69bb8754dc0c1ac73\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\DuongKK\.android\build-cache\e9b33cc3f5bf7dc14237be078beb38541b51c835\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\DuongKK\.android\build-cache\7a9b03acbfe3c216a34eb86b245349b5c205ed7f\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.0.2] C:\Users\DuongKK\.android\build-cache\930f45e802a9e82f561305495c11d0458c71319d\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.0.2] C:\Users\DuongKK\.android\build-cache\1725b894aac8667278034910919cd605e74fc537\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\DuongKK\.android\build-cache\96d4db9dfa464ac2847772bd65885c3a572f2dc5\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-perf:11.0.2] C:\Users\DuongKK\.android\build-cache\431611396032dd85e1d078e01016e5d926a019fc\output\AndroidManifest.xml:21:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.2] C:\Users\DuongKK\.android\build-cache\fff08735ccb10a87999de7e4a4158c9362dcb6bf\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\DuongKK\.android\build-cache\a5b7ac9b7e806f180ad79092199c5695c09653c4\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.2] C:\Users\DuongKK\.android\build-cache\2e05a61ee253ed22761243b240dab24124b761eb\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\DuongKK\.android\build-cache\6a93550970fec10ab5f4ed875c81b2ab0cce661d\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\DuongKK\.android\build-cache\b12c964ccd983c60e151fa03b729da75335283d9\output\AndroidManifest.xml:17:5-43
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\DuongKK\.android\build-cache\dddcc95a7ddb4af7eb627402e53e39c54e82fa8e\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bmarrdev:android-DecoView-charting:v0.9.3] C:\Users\DuongKK\.android\build-cache\55a5f9f1d02ecbdc27132eee787fe624c2e80459\output\AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\DuongKK\.android\build-cache\a654433d4f730ab94333ca2dd6ee8808bab6f79d\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton:butterknife:8.6.0] C:\Users\DuongKK\.android\build-cache\49b1bc5316ac762256201e12a42a0125d5d7ac94\output\AndroidManifest.xml:5:5-43
+MERGED from [com.blankj:utilcode:1.5.1] C:\Users\DuongKK\.android\build-cache\d21b98e9e23a1c82775f46c130e365452b542467\output\AndroidManifest.xml:8:5-44
+MERGED from [com.github.doctoror.geocoder:library:1.0.0] C:\Users\DuongKK\.android\build-cache\8f8bfdd4c7e428fd113fd7bf628fd50d4f1d6f15\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad.material-dialogs:core:0.9.0.1] C:\Users\DuongKK\.android\build-cache\53187e063d4722a57f3fb22794458e7072abee0d\output\AndroidManifest.xml:8:5-11:75
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\DuongKK\.android\build-cache\2f9450a9c48176f5807c30eb42c4a19df5a1ce30\output\AndroidManifest.xml:20:5-43
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.7] C:\Users\DuongKK\.android\build-cache\cf081bd8aee402ea14e1cec8f3fe6b17b79a6014\output\AndroidManifest.xml:12:5-14:41
+MERGED from [homhomlin.lib:ptrrv-library:1.3.1] C:\Users\DuongKK\.android\build-cache\a9a6687b63d939e5b4f16ea8b79fac8c7ac6aa87\output\AndroidManifest.xml:7:5-43
+MERGED from [com.github.eralpyucel:CircleProgressView:v1.1] C:\Users\DuongKK\.android\build-cache\ee902b4175d9cd2a688de356f59f24abda3b4509\output\AndroidManifest.xml:7:5-9:41
+MERGED from [me.iwf.photopicker:PhotoPicker:0.8.11] C:\Users\DuongKK\.android\build-cache\b056da086f9f97011ce5967e67308181c0cd5546\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.aakira:expandable-layout:1.5.1] C:\Users\DuongKK\.android\build-cache\48366e82522ec97e741e7eb8f68e4d45f659623a\output\AndroidManifest.xml:8:5-10:41
+MERGED from [net.cachapa.expandablelayout:expandablelayout:2.9.1] C:\Users\DuongKK\.android\build-cache\18d9789fc25d3661ac58522f6d3a9ed16e5b092f\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\DuongKK\.android\build-cache\dc74d159ad96858d45f491eac192ce658a972d31\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\DuongKK\.android\build-cache\785e4c09b265329ed794e030fda8c7d3b8dbd5f6\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\DuongKK\.android\build-cache\8120c3f0d931024f9130902cbde7b1c13f26cdab\output\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\DuongKK\.android\build-cache\1f42e9e40300694edf568a6af8fc1a387e55afc6\output\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\DuongKK\.android\build-cache\4bbb202a8ecc7dfe0d5cc8317970cc05fee523ad\output\AndroidManifest.xml:27:5-43
+MERGED from [com.kyleduo.switchbutton:library:1.4.6] C:\Users\DuongKK\.android\build-cache\7c3da38c1556e7012ee17140f06a754acf9e04aa\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\DuongKK\.android\build-cache\77c1760345ce21c7d60a8066084bd228a54d3c4c\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\DuongKK\.android\build-cache\5cea061b36c1d3103fb769c48e985cdb9e6686a9\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\DuongKK\.android\build-cache\2e5f0b0b9bf9a7a281df4ba65e7c55459b67e7d0\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\DuongKK\.android\build-cache\04ade500894ec9616d182ae7f88fb40cf35a1f81\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\DuongKK\.android\build-cache\63d395f972e6018b246ba1158a038146d2f64c17\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\DuongKK\.android\build-cache\803bd023a9b6f5c32a86d8915bd10cf6c979e934\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\DuongKK\.android\build-cache\58d1405ac5036eefbf0a96bf8930113e7b46cef0\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\DuongKK\.android\build-cache\1b22043426095c6fb693707ad99de4c4bfaf9691\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\DuongKK\.android\build-cache\ccbb085ae60bf418847db4e917fb8ae82e47db18\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\DuongKK\.android\build-cache\fb48d3726edba327cf31a3ec4a3edc9befd1a6b6\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml
+		INJECTED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml
+		INJECTED from D:\LanguageProgram\Android\SourceCode\appxeom\SkyNetInc\appxeom\AppXeOmDriver\GoiXeOmDriver\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\DuongKK\.android\build-cache\7bd7b80c17801e4926f4737ed55d754654abd4b3\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.1] C:\Users\DuongKK\.android\build-cache\fb48d3726edba327cf31a3ec4a3edc9befd1a6b6\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\DuongKK\.android\build-cache\11b45bc2bcf032ae6196e7e9d64b97a2ed238470\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\DuongKK\.android\build-cache\2f9450a9c48176f5807c30eb42c4a19df5a1ce30\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\DuongKK\.android\build-cache\77c1760345ce21c7d60a8066084bd228a54d3c4c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\DuongKK\.android\build-cache\5cea061b36c1d3103fb769c48e985cdb9e6686a9\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\DuongKK\.android\build-cache\2e5f0b0b9bf9a7a281df4ba65e7c55459b67e7d0\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\DuongKK\.android\build-cache\04ade500894ec9616d182ae7f88fb40cf35a1f81\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\DuongKK\.android\build-cache\63d395f972e6018b246ba1158a038146d2f64c17\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\DuongKK\.android\build-cache\803bd023a9b6f5c32a86d8915bd10cf6c979e934\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\DuongKK\.android\build-cache\58d1405ac5036eefbf0a96bf8930113e7b46cef0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\DuongKK\.android\build-cache\1b22043426095c6fb693707ad99de4c4bfaf9691\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\DuongKK\.android\build-cache\ccbb085ae60bf418847db4e917fb8ae82e47db18\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\DuongKK\.android\build-cache\7bd7b80c17801e4926f4737ed55d754654abd4b3\output\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\DuongKK\.android\build-cache\7bd7b80c17801e4926f4737ed55d754654abd4b3\output\AndroidManifest.xml:23:9-47
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\DuongKK\.android\build-cache\2ad700f9a8b42659e93416e69bb8754dc0c1ac73\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\DuongKK\.android\build-cache\96d4db9dfa464ac2847772bd65885c3a572f2dc5\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\DuongKK\.android\build-cache\2ad700f9a8b42659e93416e69bb8754dc0c1ac73\output\AndroidManifest.xml:19:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\DuongKK\.android\build-cache\2ad700f9a8b42659e93416e69bb8754dc0c1ac73\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\DuongKK\.android\build-cache\2ad700f9a8b42659e93416e69bb8754dc0c1ac73\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\DuongKK\.android\build-cache\2ad700f9a8b42659e93416e69bb8754dc0c1ac73\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\DuongKK\.android\build-cache\7a9b03acbfe3c216a34eb86b245349b5c205ed7f\output\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\DuongKK\.android\build-cache\7a9b03acbfe3c216a34eb86b245349b5c205ed7f\output\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\DuongKK\.android\build-cache\7a9b03acbfe3c216a34eb86b245349b5c205ed7f\output\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\DuongKK\.android\build-cache\7a9b03acbfe3c216a34eb86b245349b5c205ed7f\output\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\DuongKK\.android\build-cache\7a9b03acbfe3c216a34eb86b245349b5c205ed7f\output\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\DuongKK\.android\build-cache\7a9b03acbfe3c216a34eb86b245349b5c205ed7f\output\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\DuongKK\.android\build-cache\7a9b03acbfe3c216a34eb86b245349b5c205ed7f\output\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\DuongKK\.android\build-cache\7a9b03acbfe3c216a34eb86b245349b5c205ed7f\output\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\DuongKK\.android\build-cache\7a9b03acbfe3c216a34eb86b245349b5c205ed7f\output\AndroidManifest.xml:24:18-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\DuongKK\.android\build-cache\96d4db9dfa464ac2847772bd65885c3a572f2dc5\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\DuongKK\.android\build-cache\96d4db9dfa464ac2847772bd65885c3a572f2dc5\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\DuongKK\.android\build-cache\96d4db9dfa464ac2847772bd65885c3a572f2dc5\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\DuongKK\.android\build-cache\2b9aeb469b75a2955ea11e9153f9f1be09130375\output\AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.firebase:firebase-perf:11.0.2] C:\Users\DuongKK\.android\build-cache\431611396032dd85e1d078e01016e5d926a019fc\output\AndroidManifest.xml:19:5-97
+	android:name
+		ADDED from [com.google.firebase:firebase-perf:11.0.2] C:\Users\DuongKK\.android\build-cache\431611396032dd85e1d078e01016e5d926a019fc\output\AndroidManifest.xml:19:22-95
+provider#com.google.firebase.perf.provider.FirebasePerfProvider
+ADDED from [com.google.firebase:firebase-perf:11.0.2] C:\Users\DuongKK\.android\build-cache\431611396032dd85e1d078e01016e5d926a019fc\output\AndroidManifest.xml:24:9-199
+	android:authorities
+		ADDED from [com.google.firebase:firebase-perf:11.0.2] C:\Users\DuongKK\.android\build-cache\431611396032dd85e1d078e01016e5d926a019fc\output\AndroidManifest.xml:24:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-perf:11.0.2] C:\Users\DuongKK\.android\build-cache\431611396032dd85e1d078e01016e5d926a019fc\output\AndroidManifest.xml:24:149-173
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-perf:11.0.2] C:\Users\DuongKK\.android\build-cache\431611396032dd85e1d078e01016e5d926a019fc\output\AndroidManifest.xml:24:174-197
+	android:name
+		ADDED from [com.google.firebase:firebase-perf:11.0.2] C:\Users\DuongKK\.android\build-cache\431611396032dd85e1d078e01016e5d926a019fc\output\AndroidManifest.xml:24:79-148
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\DuongKK\.android\build-cache\a5b7ac9b7e806f180ad79092199c5695c09653c4\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\DuongKK\.android\build-cache\a5b7ac9b7e806f180ad79092199c5695c09653c4\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\DuongKK\.android\build-cache\a5b7ac9b7e806f180ad79092199c5695c09653c4\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\DuongKK\.android\build-cache\a5b7ac9b7e806f180ad79092199c5695c09653c4\output\AndroidManifest.xml:19:19-85
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\DuongKK\.android\build-cache\c5d3b9ccbfa630b8a9bccf06c0a58aa42b9c5499\output\AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\DuongKK\.android\build-cache\2e05a61ee253ed22761243b240dab24124b761eb\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\DuongKK\.android\build-cache\2e05a61ee253ed22761243b240dab24124b761eb\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\DuongKK\.android\build-cache\2e05a61ee253ed22761243b240dab24124b761eb\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\DuongKK\.android\build-cache\2e05a61ee253ed22761243b240dab24124b761eb\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\DuongKK\.android\build-cache\2e05a61ee253ed22761243b240dab24124b761eb\output\AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\DuongKK\.android\build-cache\b12c964ccd983c60e151fa03b729da75335283d9\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\DuongKK\.android\build-cache\b12c964ccd983c60e151fa03b729da75335283d9\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\DuongKK\.android\build-cache\b12c964ccd983c60e151fa03b729da75335283d9\output\AndroidManifest.xml:20:20-65
+provider#android.support.v4.content.FileProvider
+ADDED from [me.iwf.photopicker:PhotoPicker:0.8.11] C:\Users\DuongKK\.android\build-cache\b056da086f9f97011ce5967e67308181c0cd5546\output\AndroidManifest.xml:12:9-20:20
+	android:authorities
+		ADDED from [me.iwf.photopicker:PhotoPicker:0.8.11] C:\Users\DuongKK\.android\build-cache\b056da086f9f97011ce5967e67308181c0cd5546\output\AndroidManifest.xml:14:13-60
+	android:grantUriPermissions
+		ADDED from [me.iwf.photopicker:PhotoPicker:0.8.11] C:\Users\DuongKK\.android\build-cache\b056da086f9f97011ce5967e67308181c0cd5546\output\AndroidManifest.xml:16:13-47
+	android:exported
+		ADDED from [me.iwf.photopicker:PhotoPicker:0.8.11] C:\Users\DuongKK\.android\build-cache\b056da086f9f97011ce5967e67308181c0cd5546\output\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [me.iwf.photopicker:PhotoPicker:0.8.11] C:\Users\DuongKK\.android\build-cache\b056da086f9f97011ce5967e67308181c0cd5546\output\AndroidManifest.xml:13:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [me.iwf.photopicker:PhotoPicker:0.8.11] C:\Users\DuongKK\.android\build-cache\b056da086f9f97011ce5967e67308181c0cd5546\output\AndroidManifest.xml:17:13-19:67
+	android:resource
+		ADDED from [me.iwf.photopicker:PhotoPicker:0.8.11] C:\Users\DuongKK\.android\build-cache\b056da086f9f97011ce5967e67308181c0cd5546\output\AndroidManifest.xml:19:17-64
+	android:name
+		ADDED from [me.iwf.photopicker:PhotoPicker:0.8.11] C:\Users\DuongKK\.android\build-cache\b056da086f9f97011ce5967e67308181c0cd5546\output\AndroidManifest.xml:18:17-67

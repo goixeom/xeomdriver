@@ -1,0 +1,686 @@
+[
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_route.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_route.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_music_player.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_music_player.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_selector_dark.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\53187e063d4722a57f3fb22794458e7072abee0d\\output\\res\\drawable\\md_selector_dark.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_coupon1.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_coupon1.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\a5b7ac9b7e806f180ad79092199c5695c09653c4\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\fb48d3726edba327cf31a3ec4a3edc9befd1a6b6\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_click_back.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_click_back.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_drum.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_drum.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\a5b7ac9b7e806f180ad79092199c5695c09653c4\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_wallet.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_wallet.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_call.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\selector_call.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\fb48d3726edba327cf31a3ec4a3edc9befd1a6b6\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\dashed_border.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\dashed_border.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_bt_back.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\selector_bt_back.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\__picker_bg_material_item.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\b056da086f9f97011ce5967e67308181c0cd5546\\output\\res\\drawable\\__picker_bg_material_item.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\anh.jpg",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\anh.jpg"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\thumb.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\thumb.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\__picker_delete.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\b056da086f9f97011ce5967e67308181c0cd5546\\output\\res\\drawable\\__picker_delete.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_operator.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_operator.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_right_rule.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_right_rule.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\a5b7ac9b7e806f180ad79092199c5695c09653c4\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_no_trip.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_no_trip.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\white_radius.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\8faebabf9dbb405b386b867414db06b79d4e2200\\output\\res\\drawable\\white_radius.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_my_location_black_24dp.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_my_location_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_coupon.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_coupon.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\a5b7ac9b7e806f180ad79092199c5695c09653c4\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_star_black_24dp.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_star_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_back_text.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_back_text.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\tab_text_selector.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\tab_text_selector.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\dropshadow.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\dropshadow.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_background.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_background.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_click_im_sure.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_click_im_sure.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_loi_nhuan.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_loi_nhuan.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\logo_black.png",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\logo_black.png"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\logo_white.png",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\logo_white.png"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\a5b7ac9b7e806f180ad79092199c5695c09653c4\\output\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\progressbarstyleone.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\progressbarstyleone.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_down_arrow.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_down_arrow.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_item_selected.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\53187e063d4722a57f3fb22794458e7072abee0d\\output\\res\\drawable\\md_item_selected.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_play_circle.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_play_circle.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_talking_funny.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_talking_funny.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\a5b7ac9b7e806f180ad79092199c5695c09653c4\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_no_coupon.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_no_coupon.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\thumb_sw.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\thumb_sw.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_part.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_part.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_email_send_pass.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_email_send_pass.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\border_circle_dialog.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\border_circle_dialog.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_target.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_target.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_contact_book.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_contact_book.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\star_ratingbar_empty.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\star_ratingbar_empty.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_like.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_like.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\background_viewpager_indicator.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\background_viewpager_indicator.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\star_ratingbar_fillled.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\star_ratingbar_fillled.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_pro.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_pro.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_networking.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_networking.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\__picker_checkbox_bg.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\b056da086f9f97011ce5967e67308181c0cd5546\\output\\res\\drawable\\__picker_checkbox_bg.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_vi_cua_toi.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_vi_cua_toi.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_reg.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_reg.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\a5b7ac9b7e806f180ad79092199c5695c09653c4\\output\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\border_circle.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\border_circle.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_settings.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_call_phone.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_call_phone.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\border_circle_1.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\border_circle_1.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\a5b7ac9b7e806f180ad79092199c5695c09653c4\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_investment.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_investment.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_guitar_pick.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_guitar_pick.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_alarm.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_alarm.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_im_sure.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_im_sure.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_error.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_error.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\circle_shape.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\circle_shape.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\a5b7ac9b7e806f180ad79092199c5695c09653c4\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\fb48d3726edba327cf31a3ec4a3edc9befd1a6b6\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_logo_black.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_logo_black.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_wallet_2.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_wallet_2.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_send.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_send.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_pin_green2.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_pin_green2.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_logo_white.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_logo_white.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\color_gray.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\color_gray.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_back.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_star.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_star.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\no_star.png",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\no_star.png"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\fb48d3726edba327cf31a3ec4a3edc9befd1a6b6\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_item_selected_dark.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\53187e063d4722a57f3fb22794458e7072abee0d\\output\\res\\drawable\\md_item_selected_dark.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_security_gate.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_security_gate.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_cursor.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_cursor.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\a5b7ac9b7e806f180ad79092199c5695c09653c4\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_helmet.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_helmet.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_bug.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_bug.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\circle_border_1.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\circle_border_1.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\background_editext.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\background_editext.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_success.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_success.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\dashed_border_button.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\dashed_border_button.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_call_sp_click.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_call_sp_click.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_no_phone.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_no_phone.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_btn_selector_dark.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\53187e063d4722a57f3fb22794458e7072abee0d\\output\\res\\drawable\\md_btn_selector_dark.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_login.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_login.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_helmet_driver.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_helmet_driver.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_internet.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_internet.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_circle.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_circle.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\track.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\track.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_no_feed.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_no_feed.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\log_in.png",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\log_in.png"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_transparent.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\53187e063d4722a57f3fb22794458e7072abee0d\\output\\res\\drawable\\md_transparent.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_hotel.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_hotel.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_bike.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_bike.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\circle_border.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\circle_border.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\star.png",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\star.png"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_received_code.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_received_code.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\star_rating_bar_full.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\star_rating_bar_full.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\a5b7ac9b7e806f180ad79092199c5695c09653c4\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_end.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_end.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_medal.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_medal.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_wait.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_wait.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\__picker_photo_bg.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\b056da086f9f97011ce5967e67308181c0cd5546\\output\\res\\drawable\\__picker_photo_bg.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_btn_selector.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\53187e063d4722a57f3fb22794458e7072abee0d\\output\\res\\drawable\\md_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_agenda.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_agenda.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_selector.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\53187e063d4722a57f3fb22794458e7072abee0d\\output\\res\\drawable\\md_selector.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ksw_md_thumb.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\7c3da38c1556e7012ee17140f06a754acf9e04aa\\output\\res\\drawable\\ksw_md_thumb.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_id_card.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_id_card.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_btn_selected_dark.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\53187e063d4722a57f3fb22794458e7072abee0d\\output\\res\\drawable\\md_btn_selected_dark.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_no_star.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_no_star.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_bt_sure.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\selector_bt_sure.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\a5b7ac9b7e806f180ad79092199c5695c09653c4\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\77c1760345ce21c7d60a8066084bd228a54d3c4c\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\color_thumb.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\color_thumb.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_btn_selected.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\53187e063d4722a57f3fb22794458e7072abee0d\\output\\res\\drawable\\md_btn_selected.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_line.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_line.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\fb48d3726edba327cf31a3ec4a3edc9befd1a6b6\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_call_sp.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_call_sp.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\__picker_camera.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\b056da086f9f97011ce5967e67308181c0cd5546\\output\\res\\drawable\\__picker_camera.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\a5b7ac9b7e806f180ad79092199c5695c09653c4\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\DuongKK\\.android\\build-cache\\a5b7ac9b7e806f180ad79092199c5695c09653c4\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_next.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_next.xml"
+    },
+    {
+        "merged": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_motorcycle.xml",
+        "source": "D:\\LanguageProgram\\Android\\SourceCode\\appxeom\\SkyNetInc\\appxeom\\AppXeOmDriver\\GoiXeOmDriver\\app\\src\\main\\res\\drawable\\ic_motorcycle.xml"
+    }
+]
