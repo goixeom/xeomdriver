@@ -6,6 +6,7 @@ import android.os.AsyncTask;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.blankj.utilcode.util.LogUtils;
+import com.blankj.utilcode.util.NetworkUtils;
 import com.goixeom.R;
 import com.goixeomdriver.interfaces.OnResponse;
 import com.goixeomdriver.views.ProgressDialogCustom;
@@ -111,6 +112,8 @@ public class CallBackCustom<T> implements Callback<T> {
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
+                    if(!NetworkUtils.isConnected()) return;
+
 //        RLog.e(call.request().body().contentType().toString());
 //        RLog.e(call.request().headers().toString());
                     new MaterialDialog.Builder(context).title(R.string.error)
@@ -122,6 +125,7 @@ public class CallBackCustom<T> implements Callback<T> {
                 }
             }.execute();
         } else {
+            if(!NetworkUtils.isConnected()) return;
             new MaterialDialog.Builder(context).title(R.string.error)
                     .content(context.getString(R.string.unknow_error))
                     .positiveText(R.string.dismis)

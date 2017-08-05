@@ -5,6 +5,7 @@ import android.graphics.Color;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.blankj.utilcode.util.LogUtils;
+import com.blankj.utilcode.util.NetworkUtils;
 import com.goixeom.R;
 import com.goixeomdriver.interfaces.OnResponse;
 import com.goixeomdriver.views.ProgressDialogCustom;
@@ -66,6 +67,8 @@ public class CallBackCustomNoDelay<T> implements Callback<T> {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        if(!NetworkUtils.isConnected()) return;
+
 //        RLog.e(call.request().body().contentType().toString());
 //        RLog.e(call.request().headers().toString());
         new MaterialDialog.Builder(context).title(R.string.error)
