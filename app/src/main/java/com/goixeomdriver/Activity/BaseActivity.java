@@ -92,6 +92,26 @@ public abstract class BaseActivity extends AppCompatActivity {
             onSocketReady();
         }
     };
+    BroadcastReceiver receiverConnectionNetwork = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            if (!NetworkUtils.isConnected()) {
+//                if(getmSocket()!=null) getmSocket().disconnect();
+                if (dialogNetwork == null)
+                    dialogNetwork = AlertDialogCustom.dialogMessage(BaseActivity.this);
+                dialogNetwork.show();
+                if (view != null)
+                    CommonUtils.disable(view);
+
+            } else {
+                if(getmSocket()!=null) getmSocket().reconection();
+                if (dialogNetwork != null) dialogNetwork.dismiss();
+                if (view != null)
+                    CommonUtils.enable(view);
+            }
+
+        }
+    };
 
     BroadcastReceiver receiverGPS = new BroadcastReceiver() {
         @Override
@@ -317,7 +337,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-
+        if (dialogNetwork != null) dialogNetwork.dismiss();
     }
 
     @Override
@@ -364,26 +384,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     }
 
     AlertDialog dialogNetwork;
-    BroadcastReceiver receiverConnectionNetwork = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            if (!NetworkUtils.isConnected()) {
-//                if(getmSocket()!=null) getmSocket().disconnect();
-                if (dialogNetwork == null)
-                    dialogNetwork = AlertDialogCustom.dialogMessage(BaseActivity.this);
-                dialogNetwork.show();
-                if (view != null)
-                    CommonUtils.disable(view);
 
-            } else {
-                if(getmSocket()!=null) getmSocket().reconection();
-                if (dialogNetwork != null) dialogNetwork.dismiss();
-                if (view != null)
-                    CommonUtils.enable(view);
-            }
-
-        }
-    };
 
 
     public boolean isOnline(Context context) {

@@ -77,7 +77,6 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
 //        this.socket.disconnect();
 //    }
     public void reconection() {
-        LogUtils.e("reconnect now");
         if(socket!=null && !socket.connected()) {
             LogUtils.e("connectinggggggg..");
             socket.connect();
@@ -591,6 +590,8 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
                 listenProfileUpdateVerify();
 
                 getInfor(mSetting.getInt(Constants.ID));
+                updateDriverId(mSetting.getInt(Constants.ID));
+
             }
         });
 
@@ -609,7 +610,7 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
                 Intent intent = new Intent();
                 intent.setAction(SocketConstants.EVENT_CONNECTION);
                 intent.putExtra(SocketConstants.KEY_STATUS_CONNECTION, getString(R.string.disconnect));
-                SocketClient.this.sendBroadcast(intent);
+           //     SocketClient.this.sendBroadcast(intent);
             }
         });
         this.socket.on(Socket.EVENT_DISCONNECT, new Emitter.Listener() {
@@ -680,6 +681,8 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
     }
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
+        LogUtils.e("onStartCommand");
+        reconection();
         return START_STICKY;
     }
     public Socket getSocket() {

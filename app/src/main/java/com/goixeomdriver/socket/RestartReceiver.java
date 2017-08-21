@@ -10,7 +10,6 @@ import android.graphics.BitmapFactory;
 import android.support.v4.app.NotificationCompat;
 
 import com.blankj.utilcode.util.LogUtils;
-import com.blankj.utilcode.util.NetworkUtils;
 import com.blankj.utilcode.util.SPUtils;
 import com.goixeom.R;
 import com.goixeomdriver.Activity.SplashScreenActivity;
@@ -24,7 +23,7 @@ public class RestartReceiver  extends BroadcastReceiver {
     public AlarmManager alarmManager;
     @Override
     public void onReceive(Context context, Intent intent) {
-        if (new SPUtils(Constants.SETTING).getInt(Constants.ID) == -1 || !NetworkUtils.isConnected()) {
+        if (new SPUtils(Constants.SETTING).getInt(Constants.ID) == -1 ) {
             LogUtils.e("No internet or log out");
             return;
 
