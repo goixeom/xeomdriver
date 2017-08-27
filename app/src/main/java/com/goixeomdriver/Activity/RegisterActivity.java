@@ -12,6 +12,7 @@ import android.view.ViewTreeObserver;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RadioGroup;
 import android.widget.ScrollView;
 
 import com.afollestad.materialdialogs.MaterialDialog;
@@ -54,6 +55,8 @@ public class RegisterActivity extends BaseAuthActivity {
     CustomTextView dangkyTxt;
     @BindView(R.id.ll_scroll)
     ScrollView llScroll;
+    @BindView(R.id.rad_group)
+    RadioGroup radGroup;
     private Button mSignIn;
     private CustomTextView mDangKy;
     private boolean isTermClicked;
@@ -107,6 +110,13 @@ public class RegisterActivity extends BaseAuthActivity {
                 final String lastName = edtName.getText().toString();
                 final String email = edtEmail.getText().toString();
                 final String refcode = edtRefCode.getText().toString();
+                final int typeService  ;
+                if(radGroup.getCheckedRadioButtonId() == R.id.rad_bike){
+                    typeService=0;
+                }else{
+                    typeService=1;
+
+                }
                 if (!verifyPhoneSucess(phone)) {
                     return;
                 }
@@ -127,6 +137,7 @@ public class RegisterActivity extends BaseAuthActivity {
                             intent.putExtra(Constants.EMAIL, email);
                             intent.putExtra(Constants.REF_CODE, refcode);
                             intent.putExtra(Constants.NAME, lastName);
+                            intent.putExtra(Constants.TYPE_SERVICE, typeService);
                             startActivity(intent);
                             overridePendingTransition(R.anim.slide_in, R.anim.slide_out);
                         } else {

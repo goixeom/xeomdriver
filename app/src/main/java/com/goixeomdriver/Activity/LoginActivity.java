@@ -57,7 +57,6 @@ public class LoginActivity extends BaseAuthActivity {
     @BindView(R.id.ll_root)
     LinearLayout llRoot;
     private LinearLayout mSendpasswork;
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -84,7 +83,6 @@ public class LoginActivity extends BaseAuthActivity {
                         showDialogErrorContent(getString(R.string.please_enter_email));
                         return;
                     }
-
                 }
                 if (password.length() < 4) {
                     showDialogErrorContent("Mật khẩu phải từ 4 ký tự trở lên");
@@ -114,8 +112,6 @@ public class LoginActivity extends BaseAuthActivity {
                         }
                     }
                 }));
-
-
             }
         });
         llRoot.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {

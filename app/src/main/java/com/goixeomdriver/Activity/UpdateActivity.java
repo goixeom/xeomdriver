@@ -95,14 +95,7 @@ public class UpdateActivity extends BaseActivity {
     @BindView(R.id.ll_root_cmnd)
     LinearLayout llRootCmnd;
 
-    @BindView(R.id.img_result_hokhau)
-    ImageView imgResultHokhau;
-    @BindView(R.id.img_next_hokhau)
-    ImageView imgNextHokhau;
-    @BindView(R.id.progress_hokhau)
-    ProgressBar progressHokhau;
-    @BindView(R.id.ll_root_hokhau)
-    LinearLayout llRootHokhau;
+
     @BindView(R.id.update_layout)
     LinearLayout updateLayout;
     @BindView(R.id.tv_go_main)
@@ -350,7 +343,7 @@ public class UpdateActivity extends BaseActivity {
     ArrayList<String> listPermissions = new ArrayList<>();
     View view;
 
-    @OnClick({R.id.ll_root_bangLai, R.id.ll_root_dangkyxe, R.id.ll_root_baohiem, R.id.ll_root_cmnd, R.id.ll_root_hokhau})
+    @OnClick({R.id.ll_root_bangLai, R.id.ll_root_dangkyxe, R.id.ll_root_baohiem, R.id.ll_root_cmnd})
     public void onViewClicked(View view) {
         this.view = view;
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
@@ -397,12 +390,7 @@ public class UpdateActivity extends BaseActivity {
                         .setPreviewEnabled(true)
                         .start(this, 4);
                 break;
-            case R.id.ll_root_hokhau:
-                PhotoPicker.builder().setPhotoCount(1)
-                        .setShowCamera(true)
-                        .setPreviewEnabled(true)
-                        .start(this, 5);
-                break;
+
         }
     }
 
@@ -502,9 +490,6 @@ public class UpdateActivity extends BaseActivity {
                 break;
             }
             case 5: {
-                progressHokhau.setVisibility(View.VISIBLE);
-                imgNextHokhau.setVisibility(View.GONE);
-                llRootHokhau.setClickable(false);
 
                 break;
             }
@@ -550,11 +535,7 @@ public class UpdateActivity extends BaseActivity {
                 break;
             }
             case 5: {
-                progressHokhau.setVisibility(View.GONE);
-                imgNextHokhau.setVisibility(View.GONE);
-                imgResultHokhau.setImageResource(R.drawable.ic_wait);
-                imgResultHokhau.setVisibility(View.VISIBLE);
-                llRootHokhau.setClickable(true);
+
                 break;
             }
         }
@@ -599,10 +580,7 @@ public class UpdateActivity extends BaseActivity {
                 break;
             }
             case 5: {
-                progressHokhau.setVisibility(View.GONE);
-                imgNextHokhau.setVisibility(View.GONE);
-                imgResultHokhau.setImageResource(R.drawable.ic_error);
-                imgResultHokhau.setVisibility(View.VISIBLE);
+
                 llRootBangLai.setClickable(true);
 
                 break;
@@ -648,11 +626,7 @@ public class UpdateActivity extends BaseActivity {
                 break;
             }
             case 5: {
-                progressHokhau.setVisibility(View.GONE);
-                imgNextHokhau.setVisibility(View.GONE);
-                imgResultHokhau.setImageResource(R.drawable.ic_success);
-                imgResultHokhau.setVisibility(View.VISIBLE);
-                llRootHokhau.setClickable(false);
+
 
                 break;
             }

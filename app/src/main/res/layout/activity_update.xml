@@ -29,7 +29,6 @@
 
         <include layout="@layout/row_update_item_4" />
 
-        <include layout="@layout/row_update_item_5" />
     </LinearLayout>
 
 </ScrollView>

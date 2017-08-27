@@ -55,9 +55,18 @@ public class User implements Parcelable {
     public int getRate() {
         return rate;
     }
-
+    @SerializedName("type_driver")
+    private int type_driver;
     public int getType_vote() {
         return type_vote;
+    }
+
+    public int getType_driver() {
+        return type_driver;
+    }
+
+    public void setType_driver(int type_driver) {
+        this.type_driver = type_driver;
     }
 
     public void setType_vote(int type_vote) {
@@ -251,6 +260,7 @@ public class User implements Parcelable {
         dest.writeInt(this.clicked);
         dest.writeInt(this.type_vote);
         dest.writeInt(this.number_vote);
+        dest.writeInt(this.type_driver);
     }
 
     protected User(Parcel in) {
@@ -275,6 +285,7 @@ public class User implements Parcelable {
         this.clicked = in.readInt();
         this.type_vote = in.readInt();
         this.number_vote = in.readInt();
+        this.type_driver = in.readInt();
     }
 
     public static final Creator<User> CREATOR = new Creator<User>() {

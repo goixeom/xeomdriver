@@ -1,15 +1,27 @@
 package com.goixeomdriver.Activity;
 
+import android.Manifest;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.pm.PackageManager;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
+import android.telephony.SmsMessage;
 import android.text.Editable;
 import android.text.Html;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 
+import com.afollestad.materialdialogs.DialogAction;
+import com.afollestad.materialdialogs.MaterialDialog;
 import com.blankj.utilcode.util.LogUtils;
 import com.blankj.utilcode.util.PhoneUtils;
 import com.goixeom.R;
@@ -43,7 +55,41 @@ public class AccuracyActivity extends BaseAuthActivity {
     private String strCode;
     private String codeVerify;
     private String mPhone;
+    private int typeService;
     private boolean isFirstTime = true;
+    public static final String SMS_BUNDLE = "pdus";
+    private BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            Bundle intentExtras = intent.getExtras();
+            if (intentExtras != null) {
+                Object[] sms = (Object[]) intentExtras.get(SMS_BUNDLE);
+                String smsMessageStr = "";
+                for (int i = 0; i < sms.length; ++i) {
+                    SmsMessage smsMessage = SmsMessage.createFromPdu((byte[]) sms[i]);
+                    String smsBody = smsMessage.getMessageBody();
+                    String address = smsMessage.getOriginatingAddress();
+                    smsMessageStr += "SMS From: " + address + "\n";
+                    smsMessageStr += smsBody + "\n";
+
+                    if (smsBody.contains("Mật khẩu Gọi Xe Ôm của bạn là")) {
+                        String numberCode = smsBody.substring(smsBody.indexOf(":") +2, smsBody.length());
+                        if (numberCode.length() == 4) {
+                            code0.setText(numberCode.substring(0, 1));
+                            code1.setText(numberCode.substring(1, 2));
+                            code2.setText(numberCode.substring(2, 3));
+                            code3.setText(numberCode.substring(3, 4));
+                        }
+                        break;
+                    }
+                }
+//                ToastUtils.showShort(smsMessageStr);
+LogUtils.e(smsMessageStr);
+                //this will update the UI with message
+
+            }
+        }
+    };
     private CountDownTimer countDownTimer = new CountDownTimer(Constants.COUNT_DOWN_MILIS, 1000) {
         @Override
         public void onTick(long l) {
@@ -74,6 +120,7 @@ public class AccuracyActivity extends BaseAuthActivity {
             email = getIntent().getStringExtra(Constants.EMAIL);
             name = getIntent().getStringExtra(Constants.NAME);
             refcode = getIntent().getStringExtra(Constants.REF_CODE);
+            typeService = getIntent().getIntExtra(Constants.TYPE_SERVICE,0);
             sendSms(mPhone);
             mAccuracy.setText(Html.fromHtml(String.format(getString(R.string.txt_accuracy), mPhone)));
 
@@ -202,7 +249,7 @@ public class AccuracyActivity extends BaseAuthActivity {
     private void checkCodeNow() {
         if (verifyPass()) {
             getDialogProgress().showDialog();
-            Call<ApiResponse<String>> register = getmApi().register(ApiConstants.API_KEY, mPhone, name, email, refcode, codeVerify, PhoneUtils.getIMEI());
+            Call<ApiResponse<String>> register = getmApi().register(ApiConstants.API_KEY, mPhone, name, email, refcode, codeVerify, PhoneUtils.getIMEI(),typeService);
             register.enqueue(new CallBackCustom<ApiResponse<String>>(this, getDialogProgress(), new OnResponse<ApiResponse<String>>() {
                 @Override
                 public void onResponse(ApiResponse<String> object) {
@@ -224,5 +271,66 @@ public class AccuracyActivity extends BaseAuthActivity {
     @OnClick(R.id.txt4)
     public void onViewClicked() {
         sendSms(mPhone);
+    }
+
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        if (ActivityCompat.checkSelfPermission(this,
+                Manifest.permission.RECEIVE_SMS) != PackageManager.PERMISSION_GRANTED &&
+                ActivityCompat.checkSelfPermission(this,
+                        Manifest.permission.READ_SMS) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this,
+                    new String[]{android.Manifest.permission.RECEIVE_SMS,
+                            android.Manifest.permission.READ_SMS},
+                    10000);
+        } else {
+            Log.e("DB", "PERMISSION GRANTED");
+            IntentFilter intentFilter = new IntentFilter("android.provider.Telephony.SMS_RECEIVED");
+            intentFilter.setPriority(1000);
+            registerReceiver(broadcastReceiver, intentFilter);
+        }
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        try {
+            unregisterReceiver(broadcastReceiver);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == 10000 ){
+            if(grantResults[0] == PackageManager.PERMISSION_DENIED || grantResults[1] == PackageManager.PERMISSION_DENIED){
+                showDialogPermission();
+            }else{
+                Log.e("DB", "PERMISSION GRANTED");
+                IntentFilter intentFilter = new IntentFilter("android.provider.Telephony.SMS_RECEIVED");
+                intentFilter.setPriority(1000);
+                registerReceiver(broadcastReceiver, intentFilter);
+            }
+        }
+    }
+    private void showDialogPermission() {
+        MaterialDialog materialDialog = new MaterialDialog.Builder(this).title(getString(R.string.error))
+                .content("Bạn cần cấp quyền truy cập ứng dụng để tiếp tục sử dụng dịch vụ")
+                .positiveColor(Color.GRAY)
+                .positiveText("Đồng ý")
+                .cancelable(false)
+                .onPositive(new MaterialDialog.SingleButtonCallback() {
+                    @Override
+                    public void onClick(@NonNull MaterialDialog dialog, @NonNull DialogAction which) {
+                        ActivityCompat.requestPermissions(AccuracyActivity.this,
+                                new String[]{android.Manifest.permission.RECEIVE_SMS,
+                                        android.Manifest.permission.READ_SMS},
+                                10000);
+                    }
+                }).show();
     }
 }

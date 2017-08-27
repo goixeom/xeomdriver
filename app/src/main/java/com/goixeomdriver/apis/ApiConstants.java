@@ -5,7 +5,7 @@ package com.goixeomdriver.apis;
  */
 public class ApiConstants {
 
-    public static final String API_ROOT="https://goixeom.com/webservice/";
+    public static final String API_ROOT="https://goixeom.com/webservice1/";
 
     public static final String API_LOGIN="login-driver.php";
     public static final String API_LOGOUT="logout-driver.php";
@@ -26,10 +26,7 @@ public class ApiConstants {
     public static final String API_POCKET="report.php";
     public static final String API_GET_DRIVER="get-driver.php";
     public static final String API_DIRECTION="directions/json";
-
     public static final String API_KEY="9a887d75fed2ffb7b641dbf85b3bffd9";
-
-
     //CODE
     public static final int CODE_SUCESS = 200;
     public static final int CODE_ERROR_PARAM = 404;

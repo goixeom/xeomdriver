@@ -74,6 +74,7 @@ public class Constants {
     public static final String RATING = "rating";
     public static final String USER_TAP_ON = "user_tab_on";
     public static final String STATUS_DRIVER = "status_driver";
+    public static final String TYPE_SERVICE = "type_service";
 
 
     public static int POS_LOGIN = 0;

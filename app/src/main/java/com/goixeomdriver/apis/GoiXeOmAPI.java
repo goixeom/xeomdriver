@@ -45,7 +45,7 @@ public interface GoiXeOmAPI {
     @FormUrlEncoded
     @POST(ApiConstants.API_REGISTER)
     Call<ApiResponse<String>> register(@Field("key") String key, @Field("phone") String phone, @Field("name") String nameField
-            , @Field("email") String email, @Field("ref-code") String refCode, @Field("password") String password, @Field("imei") String imei);
+            , @Field("email") String email, @Field("ref-code") String refCode, @Field("password") String password, @Field("imei") String imei,@Field("type") int type);
 
     @FormUrlEncoded
     @POST(ApiConstants.API_FORGOT_PASSWORD)
