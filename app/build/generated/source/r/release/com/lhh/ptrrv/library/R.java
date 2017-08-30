@@ -444,7 +444,7 @@ public final class R {
         public static final int progress_circular = 0x7f0f0006;
         public static final int progress_horizontal = 0x7f0f0007;
         public static final int radio = 0x7f0f0091;
-        public static final int recycler_view = 0x7f0f0159;
+        public static final int recycler_view = 0x7f0f015c;
         public static final int screen = 0x7f0f002b;
         public static final int scrollView = 0x7f0f0084;
         public static final int search_badge = 0x7f0f009c;
@@ -530,7 +530,7 @@ public final class R {
         public static final int abc_shareactionprovider_share_with = 0x7f090010;
         public static final int abc_shareactionprovider_share_with_application = 0x7f090011;
         public static final int abc_toolbar_collapse_description = 0x7f090012;
-        public static final int loading = 0x7f090076;
+        public static final int loading = 0x7f090078;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat = 0x7f0b00a9;

@@ -24,5 +24,8 @@
     <dimen name="size_avt_detail">80dp</dimen>
     <dimen name="size_sw_setting">24dp</dimen>
     <dimen name="size_vote_icon">60dp</dimen>
-
+    <dimen name="size_w_car">22dp</dimen>
+    <dimen name="size_h_car">40dp</dimen>
+    <dimen name="size_w_bike">28dp</dimen>
+    <dimen name="size_h_bike">38dp</dimen>
 </resources>

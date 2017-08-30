@@ -89,6 +89,7 @@ public class ApiConstants {
     public static final int TYPE_HOCHIEU =5;
     public static final String API_GET_DETAIL_BOOKING="info-trip-driver.php";
     public static final String API_NEXT_BOOKING="driver-booking.php";
+    public static final String API_CONFIG_APP="config.php";
 
 
 }

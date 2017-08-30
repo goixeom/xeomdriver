@@ -921,6 +921,8 @@
     <dimen name="radius_dialog">5dp</dimen>
     <dimen name="size_avt_detail">80dp</dimen>
     <dimen name="size_dot_map">16dp</dimen>
+    <dimen name="size_h_bike">38dp</dimen>
+    <dimen name="size_h_car">40dp</dimen>
     <dimen name="size_help">200dp</dimen>
     <dimen name="size_ic_play">12dp</dimen>
     <dimen name="size_margin_big">60dp</dimen>
@@ -930,6 +932,8 @@
     <dimen name="size_switch">24dp</dimen>
     <dimen name="size_txt_code">55dp</dimen>
     <dimen name="size_vote_icon">60dp</dimen>
+    <dimen name="size_w_bike">28dp</dimen>
+    <dimen name="size_w_car">22dp</dimen>
     <dimen name="size_width_img">128dp</dimen>
     <dimen name="txt_pocket_total">30sp</dimen>
     <dimen name="txt_size_big_detail_booking">20sp</dimen>
@@ -1015,10 +1019,12 @@
     <string name="app_name">Tài xế</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="auth_failt">Your username or password is incorrect. please try again!</string>
+    <string name="bike">bike.png</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="c_n_l_i_200_k_t">Còn lại %d ký tự</string>
+    <string name="car">car.png</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">31120c2d-f329-4bd6-8b27-0bcbbc08da8b</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">17c3e041-74bf-40f3-9193-693662eb77f3</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -3046,6 +3052,14 @@
         <item name="android:layout_height">24dp</item>
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:layout_marginTop">30dp</item>
+    </style>
+    <style name="styleRadio">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:checked">false</item>
     </style>
     <style name="swItemSetting" parent="SwitchButtonMD">
         <item name="android:layout_width">wrap_content</item>

@@ -9,6 +9,7 @@ import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.net.Uri;
 import android.os.Bundle;
@@ -64,6 +65,7 @@ import com.goixeomdriver.socket.SocketConstants;
 import com.goixeomdriver.socket.SocketResponse;
 import com.goixeomdriver.utils.CommonUtils;
 import com.goixeomdriver.utils.Constants;
+import com.goixeomdriver.utils.FileUtils;
 import com.goixeomdriver.views.AlertDialogCustom;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -81,6 +83,7 @@ import com.google.firebase.perf.metrics.Trace;
 import com.google.gson.Gson;
 import com.kyleduo.switchbutton.SwitchButton;
 
+import java.io.File;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -307,7 +310,8 @@ public class MapsActivity extends BaseActivity
 
     boolean isFirstTimeFocus = false;
     boolean isStarting = false;
-
+    String pathName;
+    Drawable dBike;
     @Override
     public void onLocationChange(Location location) {
         if (mMap != null) {
@@ -315,9 +319,16 @@ public class MapsActivity extends BaseActivity
                 m.setPosition(new LatLng(location.getLatitude(), location.getLongitude()));
                 m.setVisible(true);
             } else {
-                int res = R.drawable.ic_motorcycle;
-                if(MainApplication.getInstance().getmUser()!=null && MainApplication.getInstance().getmUser().getType_driver()!=0) res = R.drawable.ic_car_view_icon;
-                m = CommonUtils.addMarker(ResourcesCompat.getDrawable(getResources(),res, null), mMap, new LatLng(location.getLatitude(), location.getLongitude()));
+//                int res = R.drawable.ic_motorcycle;
+                pathName = FileUtils.getFolder(MapsActivity.this) + getString(R.string.bike);
+                dBike = Drawable.createFromPath(pathName);
+                dBike = CommonUtils.resize(dBike, this);
+                if(MainApplication.getInstance().getmUser()!=null && MainApplication.getInstance().getmUser().getType_driver()!=0){
+                    pathName = FileUtils.getFolder(MapsActivity.this) + getString(R.string.bike);
+                    dBike = Drawable.createFromPath(pathName);
+                    dBike = CommonUtils.resize(dBike, this);
+                }
+                m = CommonUtils.addMarker(dBike, mMap, new LatLng(location.getLatitude(), location.getLongitude()));
             }
             m.setVisible(true);
             if (!isFirstTimeFocus) {
@@ -339,9 +350,16 @@ public class MapsActivity extends BaseActivity
                 mMarkerDes.remove();
                 mMarkerFrom.remove();
             }
-            int res = R.drawable.ic_motorcycle;
-            if(MainApplication.getInstance().getmUser()!=null && MainApplication.getInstance().getmUser().getType_driver()!=0) res = R.drawable.ic_car_view_icon;
-            mMarkerFrom = CommonUtils.addMarker(ResourcesCompat.getDrawable(getResources(), res, null), mMap, new LatLng(mLocation.getLatitude(), mLocation.getLongitude()));
+//            int res = R.drawable.ic_motorcycle;
+            pathName = FileUtils.getFolder(MapsActivity.this) + getString(R.string.bike);
+            dBike = Drawable.createFromPath(pathName);
+            dBike = CommonUtils.resize(dBike, this);
+            if(MainApplication.getInstance().getmUser()!=null && MainApplication.getInstance().getmUser().getType_driver()!=0) {
+                pathName = FileUtils.getFolder(MapsActivity.this) + getString(R.string.car);
+                dBike = Drawable.createFromPath(pathName);
+                dBike = CommonUtils.resizeCar(dBike, this);
+            }
+            mMarkerFrom = CommonUtils.addMarker(dBike, mMap, new LatLng(mLocation.getLatitude(), mLocation.getLongitude()));
             mMarkerDes = CommonUtils.addMarker(ResourcesCompat.getDrawable(getResources(), R.drawable.ic_pin_green2, null), mMap, new LatLng(tripInforModel.getTrip_info().getLatTo(), tripInforModel.getTrip_info().getLngTo()));
 
             if (directionCustomModel != null && directionCustomModel.getPolyline() != null)
@@ -373,6 +391,11 @@ public class MapsActivity extends BaseActivity
         super.onCreate(savedInstanceState);
 //        getmSetting().put(Constants.BOOKING,"");
 //        Mapbox.getInstance(this, "pk.eyJ1IjoiZHVvbmdudjE5OTYiLCJhIjoiY2owaHRtcmVnMDFhcjJ3dWozOG9oZTNjNiJ9.rzDhWZz--vRm_Al5yacEEg");
+        File icon = new File(FileUtils.getFolder(this)+getString(R.string.car));
+        if( !icon.exists()){
+            startActivity(new Intent(MapsActivity.this,SplashScreenActivity.class));
+            finishAffinity();
+        }
         setContentView(R.layout.activity_maps);
         ButterKnife.bind(this);
 //        mapView.onCreate(savedInstanceState);
@@ -556,7 +579,7 @@ public class MapsActivity extends BaseActivity
                     }
 
                     PolylineOptions line = new PolylineOptions();
-                    line.width(10).color(ContextCompat.getColor(MapsActivity.this, R.color.colorGreen));
+                    line.width(10).color(ContextCompat.getColor(MapsActivity.this, R.color.black));
                     int n = object.getRoutes().get(0).getLegs().get(0).getSteps().size();
                     line.add(latLngOrgin);
                     for (int i = 0; i < n; i++) {
@@ -913,9 +936,16 @@ public class MapsActivity extends BaseActivity
             mMarkerFrom.remove();
         }
         getmSocket().updateStatusBooking(SocketConstants.STATUS_START, tripInforModel.getTrip_info().getIdTrip(), getCurrentIdUser(), tripInforModel.getUser().getU_id(), mLocation.getLatitude(), mLocation.getLongitude());
-        int res = R.drawable.ic_motorcycle;
-        if(MainApplication.getInstance().getmUser()!=null && MainApplication.getInstance().getmUser().getType_driver()!=0) res = R.drawable.ic_car_view_icon;
-        mMarkerFrom = CommonUtils.addMarker(ResourcesCompat.getDrawable(getResources(), res, null), mMap, new LatLng(mLocation.getLatitude(), mLocation.getLongitude()));
+//        int res = R.drawable.ic_motorcycle;
+        pathName = FileUtils.getFolder(MapsActivity.this) + getString(R.string.bike);
+        dBike = Drawable.createFromPath(pathName);
+        dBike = CommonUtils.resize(dBike, this);
+        if(MainApplication.getInstance().getmUser()!=null && MainApplication.getInstance().getmUser().getType_driver()!=0){
+            pathName = FileUtils.getFolder(MapsActivity.this) + getString(R.string.car);
+            dBike = Drawable.createFromPath(pathName);
+            dBike = CommonUtils.resizeCar(dBike, this);
+        }
+        mMarkerFrom = CommonUtils.addMarker(dBike, mMap, new LatLng(mLocation.getLatitude(), mLocation.getLongitude()));
         mMarkerDes = CommonUtils.addMarker(ResourcesCompat.getDrawable(getResources(), R.drawable.ic_pin_green2, null), mMap, new LatLng(tripInforModel.getTrip_info().getLatTo(), tripInforModel.getTrip_info().getLngTo()));
 //        if (polyline != null) polyline.remove();
         showDirection(new LatLng(mLocation.getLatitude(), mLocation.getLongitude()),
@@ -976,9 +1006,16 @@ public class MapsActivity extends BaseActivity
                 mLocation.setLatitude(getmSetting().getFloat(Constants.LAT));
                 mLocation.setLongitude(getmSetting().getFloat(Constants.LNG));
                 CommonUtils.focusCurrentLocation(new LatLng(getmSetting().getFloat(Constants.LAT), getmSetting().getFloat(Constants.LNG)), Constants.ZOOM, mMap);
-                int res = R.drawable.ic_motorcycle;
-                if(MainApplication.getInstance().getmUser()!=null && MainApplication.getInstance().getmUser().getType_driver()!=0) res = R.drawable.ic_car_view_icon;
-                m = CommonUtils.addMarker(ResourcesCompat.getDrawable(getResources(),res, null), mMap, new LatLng(getmSetting().getFloat(Constants.LAT), getmSetting().getFloat(Constants.LNG)));
+//                int res = R.drawable.ic_motorcycle;
+                pathName = FileUtils.getFolder(MapsActivity.this) + getString(R.string.bike);
+                dBike = Drawable.createFromPath(pathName);
+                dBike = CommonUtils.resize(dBike, this);
+                if(MainApplication.getInstance().getmUser()!=null && MainApplication.getInstance().getmUser().getType_driver()!=0){
+                    pathName = FileUtils.getFolder(MapsActivity.this) + getString(R.string.car);
+                    dBike = Drawable.createFromPath(pathName);
+                    dBike = CommonUtils.resizeCar(dBike, this);
+                }
+                m = CommonUtils.addMarker(dBike, mMap, new LatLng(getmSetting().getFloat(Constants.LAT), getmSetting().getFloat(Constants.LNG)));
             }
             if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
                 ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 10000);
@@ -994,9 +1031,16 @@ public class MapsActivity extends BaseActivity
                     if (m != null) {
                         m.setPosition(new LatLng(location.getLatitude(), location.getLongitude()));
                     } else {
-                        int res = R.drawable.ic_motorcycle;
-                        if(MainApplication.getInstance().getmUser()!=null && MainApplication.getInstance().getmUser().getType_driver()!=0) res = R.drawable.ic_car_view_icon;
-                        m = CommonUtils.addMarker(ResourcesCompat.getDrawable(getResources(), res, null), mMap, new LatLng(location.getLatitude(), location.getLongitude()));
+//                        int res = R.drawable.ic_motorcycle;
+                        pathName = FileUtils.getFolder(MapsActivity.this) + getString(R.string.bike);
+                        dBike = Drawable.createFromPath(pathName);
+                        dBike = CommonUtils.resize(dBike, MapsActivity.this);
+                        if(MainApplication.getInstance().getmUser()!=null && MainApplication.getInstance().getmUser().getType_driver()!=0) {
+                            pathName = FileUtils.getFolder(MapsActivity.this) + getString(R.string.car);
+                            dBike = Drawable.createFromPath(pathName);
+                            dBike = CommonUtils.resizeCar(dBike, MapsActivity.this);
+                        }
+                        m = CommonUtils.addMarker(dBike, mMap, new LatLng(location.getLatitude(), location.getLongitude()));
                     }
                     if (!isFirstTimeFocus) {
                         isFirstTimeFocus = true;
@@ -1201,16 +1245,30 @@ public class MapsActivity extends BaseActivity
         if (mMap != null) {
             mMap.clear();
             if (mLocation != null) {
-                int res = R.drawable.ic_motorcycle;
-                if(MainApplication.getInstance().getmUser()!=null && MainApplication.getInstance().getmUser().getType_driver()!=0) res = R.drawable.ic_car_view_icon;
-                m = CommonUtils.addMarker(ResourcesCompat.getDrawable(getResources(), res, null), mMap, new LatLng(mLocation.getLatitude(), mLocation.getLongitude()));
+//                int res = R.drawable.ic_motorcycle;
+                pathName = FileUtils.getFolder(MapsActivity.this) + getString(R.string.bike);
+                dBike = Drawable.createFromPath(pathName);
+                dBike = CommonUtils.resize(dBike, MapsActivity.this);
+                if(MainApplication.getInstance().getmUser()!=null && MainApplication.getInstance().getmUser().getType_driver()!=0){
+                    pathName = FileUtils.getFolder(MapsActivity.this) + getString(R.string.car);
+                    dBike = Drawable.createFromPath(pathName);
+                    dBike = CommonUtils.resizeCar(dBike, MapsActivity.this);
+                }
+                m = CommonUtils.addMarker(dBike, mMap, new LatLng(mLocation.getLatitude(), mLocation.getLongitude()));
                 m.setVisible(true);
             } else {
                 if (MainApplication.getInstance().getmLocation() != null) {
                     mLocation = MainApplication.getInstance().getmLocation();
-                    int res = R.drawable.ic_motorcycle;
-                    if(MainApplication.getInstance().getmUser()!=null && MainApplication.getInstance().getmUser().getType_driver()!=0) res = R.drawable.ic_car_view_icon;
-                    m = CommonUtils.addMarker(ResourcesCompat.getDrawable(getResources(), res, null), mMap, new LatLng(mLocation.getLatitude(), mLocation.getLongitude()));
+//                    int res = R.drawable.ic_motorcycle;
+                    pathName = FileUtils.getFolder(MapsActivity.this) + getString(R.string.bike);
+                    dBike = Drawable.createFromPath(pathName);
+                    dBike = CommonUtils.resize(dBike, MapsActivity.this);
+                    if(MainApplication.getInstance().getmUser()!=null && MainApplication.getInstance().getmUser().getType_driver()!=0){
+                        pathName = FileUtils.getFolder(MapsActivity.this) + getString(R.string.car);
+                        dBike = Drawable.createFromPath(pathName);
+                        dBike = CommonUtils.resizeCar(dBike, MapsActivity.this);
+                    }
+                    m = CommonUtils.addMarker(dBike, mMap, new LatLng(mLocation.getLatitude(), mLocation.getLongitude()));
                     m.setVisible(true);
                 }
             }
@@ -1426,9 +1484,16 @@ public class MapsActivity extends BaseActivity
         if (MainApplication.getInstance().getmLocation() != null) {
             mLocation = MainApplication.getInstance().getmLocation();
         }
-        int res = R.drawable.ic_motorcycle;
-        if(MainApplication.getInstance().getmUser()!=null && MainApplication.getInstance().getmUser().getType_driver()!=0) res = R.drawable.ic_car_view_icon;
-        m = CommonUtils.addMarker(ResourcesCompat.getDrawable(getResources(), res, null), mMap, new LatLng(mLocation.getLatitude(), mLocation.getLongitude()));
+//        int res = R.drawable.ic_motorcycle;
+        pathName = FileUtils.getFolder(MapsActivity.this) + getString(R.string.bike);
+        dBike = Drawable.createFromPath(pathName);
+        dBike = CommonUtils.resize(dBike, MapsActivity.this);
+        if(MainApplication.getInstance().getmUser()!=null && MainApplication.getInstance().getmUser().getType_driver()!=0) {
+            pathName = FileUtils.getFolder(MapsActivity.this) + getString(R.string.car);
+            dBike = Drawable.createFromPath(pathName);
+            dBike = CommonUtils.resizeCar(dBike, MapsActivity.this);
+        }
+        m = CommonUtils.addMarker(dBike, mMap, new LatLng(mLocation.getLatitude(), mLocation.getLongitude()));
         CommonUtils.focusCurrentLocation(new LatLng(mLocation.getLatitude(), mLocation.getLongitude()), Constants.ZOOM, mMap);
 
     }

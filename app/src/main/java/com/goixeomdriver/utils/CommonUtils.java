@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
+import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.location.Address;
 import android.location.Geocoder;
@@ -56,7 +57,16 @@ public class CommonUtils {
         intent.putExtra("android.intent.extra.TEXT", msg);
         context.startActivity(Intent.createChooser(intent, "Send via"));
     }
-
+    public static Drawable resize(Drawable image,Context context) {
+        Bitmap b = ((BitmapDrawable)image).getBitmap();
+        Bitmap bitmapResized = Bitmap.createScaledBitmap(b, (int) context.getResources().getDimension(R.dimen.size_w_bike), (int) context.getResources().getDimension(R.dimen.size_h_bike), false);
+        return new BitmapDrawable(context.getResources(), bitmapResized);
+    }
+    public static Drawable resizeCar(Drawable image,Context context) {
+        Bitmap b = ((BitmapDrawable)image).getBitmap();
+        Bitmap bitmapResized = Bitmap.createScaledBitmap(b,(int) context.getResources().getDimension(R.dimen.size_w_car), (int) context.getResources().getDimension(R.dimen.size_h_car), false);
+        return new BitmapDrawable(context.getResources(), bitmapResized);
+    }
     public static void disable(ViewGroup layout) {
         layout.setEnabled(false);
         for (int i = 0; i < layout.getChildCount(); i++) {

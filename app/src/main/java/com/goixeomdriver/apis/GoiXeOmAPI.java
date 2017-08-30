@@ -1,6 +1,7 @@
 package com.goixeomdriver.apis;
 
 
+import com.goixeomdriver.models.AppConfig;
 import com.goixeomdriver.models.DetailTripModel;
 import com.goixeomdriver.models.History;
 import com.goixeomdriver.models.NextBooking;
@@ -26,6 +27,8 @@ import retrofit2.http.POST;
 import retrofit2.http.Part;
 import retrofit2.http.PartMap;
 import retrofit2.http.Query;
+import retrofit2.http.Streaming;
+import retrofit2.http.Url;
 
 /**
  * Created by MyPC on 9/12/2016.
@@ -113,4 +116,10 @@ public interface GoiXeOmAPI {
     Call<ApiResponse<NextBooking>> getNextBookingDriver(@Query("key") String key
             , @Query("d_id") int driverId
     );
+    @GET(ApiConstants.API_CONFIG_APP)
+    Call<ApiResponse<AppConfig>> getAppConfig(@Query("key") String key
+    );
+    @Streaming
+    @GET
+    Call<okhttp3.ResponseBody> downloadFileWithDynamicUrlAsync(@Url String fileUrl);
 }

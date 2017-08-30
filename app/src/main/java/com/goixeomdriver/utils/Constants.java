@@ -31,6 +31,7 @@ public class Constants {
     public static final String TYPE_PASSWORD_MAP = "type_password";
     public static final int RESULT_LOGOUT = 100;
     public static final int CODE_REQ_SETTING = 1003;
+    public static final String TIME_UPDATE_LOCATION = "time_update_location";
     public static final String PROFILE = "profile";
     public static final String NEED_TO_BACK_TO_MAP = "needbacktomap";
     public static final String NOTIFICATION_SOCKET = "notification_socket";
@@ -75,6 +76,7 @@ public class Constants {
     public static final String USER_TAP_ON = "user_tab_on";
     public static final String STATUS_DRIVER = "status_driver";
     public static final String TYPE_SERVICE = "type_service";
+    public static final String TIME_UPDATE = "time_update";
 
 
     public static int POS_LOGIN = 0;

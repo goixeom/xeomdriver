@@ -181,4 +181,6 @@
         <b>CHI TIẾT <font color=\'#2db25d\'>CHUYẾN ĐI</b></font>
         ]]>
     </string>
+    <string name="car">car.png</string>
+    <string name="bike">bike.png</string>
 </resources>

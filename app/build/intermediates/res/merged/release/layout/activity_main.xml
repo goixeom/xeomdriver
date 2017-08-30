@@ -89,7 +89,6 @@
                     android:paddingLeft="15dp"
                     android:singleLine="true"
                     android:textColorHint="#a1a1a3" />
-
                 <com.goixeomdriver.View.CustomTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -104,7 +103,6 @@
                     android:textSize="10dp"
                     android:textStyle="bold" />
             </RelativeLayout>
-
             <com.goixeomdriver.View.CustomEditText
                 android:id="@+id/edt_email"
                 android:layout_width="match_parent"
@@ -116,7 +114,6 @@
                 android:paddingLeft="15dp"
                 android:singleLine="true"
                 android:textColorHint="#a1a1a3" />
-
             <com.goixeomdriver.View.CustomEditText
                 android:id="@+id/edt_phone"
                 android:layout_width="match_parent"
@@ -128,7 +125,6 @@
                 android:paddingLeft="15dp"
                 android:singleLine="true"
                 android:textColorHint="#a1a1a3" />
-
             <com.goixeomdriver.View.CustomEditText
                 android:id="@+id/edt_ref_code"
                 android:layout_width="match_parent"
@@ -138,8 +134,38 @@
                 android:hint="@string/hint_4"
                 android:paddingLeft="15dp"
                 android:textColorHint="#a1a1a3" />
+            <com.goixeomdriver.View.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:text="Loại hình xe"
+                android:textSize="18sp" />
+            <RadioGroup
+                android:id="@+id/rad_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
 
+                <RadioButton
+                    android:id="@+id/rad_car"
+                    style="@style/styleRadio"
+                    android:drawableTop="@drawable/selector_radio_car"
+                    android:text="Ô tô"
+                    android:textStyle="bold" />
 
+                <RadioButton
+                    android:id="@+id/rad_bike"
+                    style="@style/styleRadio"
+                    android:checked="true"
+                    android:drawableTop="@drawable/selector_radio_bike"
+                    android:text="Xe máy"
+                    android:textStyle="bold" />
+            </RadioGroup>
             <com.goixeomdriver.View.CustomTextView
                 android:id="@+id/dangky_txt"
                 android:layout_width="match_parent"
@@ -147,14 +173,13 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="10dp"
                 android:gravity="center"
                 android:lineSpacingExtra="1dp"
                 android:text="@string/txt_dangky"
                 android:textColor="#333333"
                 android:textSize="12dp" />
         </LinearLayout>
-
     </ScrollView>
 
     <Button

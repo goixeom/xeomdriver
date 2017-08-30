@@ -146,7 +146,7 @@ public class DetailBooking extends BaseActivity {
 //                    tvVoteDriver.setText(object.getData().getDriver().getVote() + "");
                     Glide.with(getApplicationContext()).load("https://"+object.getData().getUser().getAvatar()).asBitmap().into(profileImage);
                     tvIdBooking.setText(object.getData().getTrip_info().getIdTrip() + "");
-                    Glide.with(getApplicationContext()).load("https://maps.googleapis.com/maps/api/"+object.getData().getTrip_info().getStaticmap()).asBitmap().into(imgMap);
+//                    Glide.with(getApplicationContext()).load("https://maps.googleapis.com/maps/api/"+object.getData().getTrip_info().getStaticmap()).asBitmap().into(imgMap);
                     llRoot.setVisibility(View.VISIBLE);
                 } else {
                     showDialogErrorContent(object.getMessage());

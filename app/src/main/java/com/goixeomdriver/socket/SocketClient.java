@@ -780,8 +780,7 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
         LogUtils.e("request location now");
         LocationRequest lr = LocationRequest.create();
         lr.setPriority(100);
-        lr.setSmallestDisplacement(1);
-        lr.setInterval(5000);
+        lr.setInterval(mSetting.getLong(Constants.TIME_UPDATE,30000));
         if (ContextCompat.checkSelfPermission(this, "android.permission.ACCESS_FINE_LOCATION") == 0 || ContextCompat.checkSelfPermission(this, "android.permission.ACCESS_COARSE_LOCATION") == 0) {
             LocationServices.FusedLocationApi.requestLocationUpdates(this._gac, lr, (LocationListener) this);
         }

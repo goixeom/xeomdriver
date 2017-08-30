@@ -27,16 +27,16 @@ public final class R {
         public static final int repeat = 0x7f0f0056;
     }
     public static final class string {
-        public static final int define_roundedimageview = 0x7f09004d;
-        public static final int library_roundedimageview_author = 0x7f09006d;
-        public static final int library_roundedimageview_authorWebsite = 0x7f09006e;
-        public static final int library_roundedimageview_isOpenSource = 0x7f09006f;
-        public static final int library_roundedimageview_libraryDescription = 0x7f090070;
-        public static final int library_roundedimageview_libraryName = 0x7f090071;
-        public static final int library_roundedimageview_libraryVersion = 0x7f090072;
-        public static final int library_roundedimageview_libraryWebsite = 0x7f090073;
-        public static final int library_roundedimageview_licenseId = 0x7f090074;
-        public static final int library_roundedimageview_repositoryLink = 0x7f090075;
+        public static final int define_roundedimageview = 0x7f09004f;
+        public static final int library_roundedimageview_author = 0x7f09006f;
+        public static final int library_roundedimageview_authorWebsite = 0x7f090070;
+        public static final int library_roundedimageview_isOpenSource = 0x7f090071;
+        public static final int library_roundedimageview_libraryDescription = 0x7f090072;
+        public static final int library_roundedimageview_libraryName = 0x7f090073;
+        public static final int library_roundedimageview_libraryVersion = 0x7f090074;
+        public static final int library_roundedimageview_libraryWebsite = 0x7f090075;
+        public static final int library_roundedimageview_licenseId = 0x7f090076;
+        public static final int library_roundedimageview_repositoryLink = 0x7f090077;
     }
     public static final class styleable {
         public static final int[] RoundedImageView = { 0x0101011d, 0x7f01018f, 0x7f010190, 0x7f010191, 0x7f010192, 0x7f010193, 0x7f010194, 0x7f010195, 0x7f010196, 0x7f010197, 0x7f010198, 0x7f010199, 0x7f01019a };
