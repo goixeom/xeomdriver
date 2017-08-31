@@ -72,23 +72,26 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
     int idBooking;
     int idUser;
     private boolean isCancelable = true;
-//    public void disconnect() {
+
+    //    public void disconnect() {
 //        LogUtils.e("disconnect now");
 //        this.socket.disconnect();
 //    }
     public void reconection() {
-        if(socket!=null && !socket.connected()) {
+        if (socket != null && !socket.connected()) {
             LogUtils.e("connectinggggggg..");
             socket.connect();
             return;
         }
         initSocket();
     }
+
     public class LocalBinder extends Binder {
         public SocketClient getServerInstance() {
             return SocketClient.this;
         }
     }
+
     public void onDestroy() {
         stopLocationUpdate();
         super.onDestroy();
@@ -97,6 +100,7 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
         Intent broadcastIntent = new Intent("chayngam.restart2");
         sendBroadcast(broadcastIntent);
     }
+
     public void onCreate() {
         super.onCreate();
         LogUtils.e("OnCreate");
@@ -107,7 +111,8 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
         }
         this._gac.connect();
         initSocket();
-        countDownTimer = new CountDownTimer(21000, 1000) {
+        long time = mSetting.getLong(Constants.TIME_WAIT, 21000);
+        countDownTimer = new CountDownTimer(time, 1000) {
             @Override
             public void onTick(long l) {
                 l -= 1000;
@@ -150,13 +155,16 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
             }
         };
     }
+
     public CountDownTimer getCountDownTimer() {
         return countDownTimer;
     }
+
     //true to disable countdown
     public void setCancelable(boolean join) {
         isCancelable = join;
     }
+
     public void uploadSuccessProfile(int type, int id) {
         if (socket == null) return;
 
@@ -176,6 +184,7 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
             e.printStackTrace();
         }
     }
+
     public void updateStatusDriver(int status, int id) {
         if (socket == null) return;
         JSONObject objJoin = new JSONObject();
@@ -191,11 +200,12 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
                 }
             });
             LogUtils.e("Update status driver  to " + status);
-            mSetting.put(Constants.STATUS_DRIVER,status);
+            mSetting.put(Constants.STATUS_DRIVER, status);
         } catch (JSONException e) {
             e.printStackTrace();
         }
     }
+
     public void updateNewImei(String imei, int id) {
 //        LogUtils.e("Socket ready update imei --- " + imei);
         JSONObject objJoin = new JSONObject();
@@ -211,6 +221,7 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
             e.printStackTrace();
         }
     }
+
     public void updateStatusBooking(int status, int idTrip, int Driver, int uid, double lat, double lng) {
         JSONObject objJoin = new JSONObject();
         try {
@@ -334,11 +345,13 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
 
         }
     }
+
     @Override
     public void onLowMemory() {
         super.onLowMemory();
         mSetting.put(Constants.OS_KILLAPP, true);
     }
+
     private void initSocket() {
         if (mSetting.getInt(Constants.ID) == -1 || !NetworkUtils.isConnected() || (socket != null && socket.connected()))
             return;
@@ -351,6 +364,7 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
                 public X509Certificate[] getAcceptedIssuers() {
                     return new X509Certificate[]{};
                 }
+
                 public void checkServerTrusted(X509Certificate[] chain,
                                                String authType) throws CertificateException {
                 }
@@ -362,7 +376,7 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
             opts.secure = true;
             opts.reconnection = true;
             opts.reconnectionDelay = 10000;
-            opts.reconnectionAttempts=10;
+            opts.reconnectionAttempts = 10;
             opts.sslContext = sc;
             this.socket = IO.socket("https://goixeom.com:3001/", opts);
             this.socket.connect();
@@ -526,15 +540,15 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
             }
         });
         LogUtils.e("Status driver saved : " + mSetting.getInt(Constants.STATUS_DRIVER));
-            if (mSetting.getInt(Constants.STATUS_DRIVER) != 3) {
-                if (mSetting.getBoolean(Constants.USER_TAP_ON, true)) {
-                    LogUtils.e("update status to 1 cause OS kill service");
-                    updateStatusDriver(1, mSetting.getInt(Constants.ID));
-                } else if (!mSetting.getBoolean(Constants.USER_TAP_ON, true)) {
-                    LogUtils.e("User Off");
-                    updateStatusDriver(0, mSetting.getInt(Constants.ID));
-                }
+        if (mSetting.getInt(Constants.STATUS_DRIVER) != 3) {
+            if (mSetting.getBoolean(Constants.USER_TAP_ON, true)) {
+                LogUtils.e("update status to 1 cause OS kill service");
+                updateStatusDriver(1, mSetting.getInt(Constants.ID));
+            } else if (!mSetting.getBoolean(Constants.USER_TAP_ON, true)) {
+                LogUtils.e("User Off");
+                updateStatusDriver(0, mSetting.getInt(Constants.ID));
             }
+        }
         socket.on("driver", new Emitter.Listener() {
             @Override
             public void call(Object... args) {
@@ -610,7 +624,7 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
                 Intent intent = new Intent();
                 intent.setAction(SocketConstants.EVENT_CONNECTION);
                 intent.putExtra(SocketConstants.KEY_STATUS_CONNECTION, getString(R.string.disconnect));
-           //     SocketClient.this.sendBroadcast(intent);
+                //     SocketClient.this.sendBroadcast(intent);
             }
         });
         this.socket.on(Socket.EVENT_DISCONNECT, new Emitter.Listener() {
@@ -645,6 +659,7 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
             }
         });
     }
+
     public void updateLatlngAngle(double lat, double lng, double anlgeFrom, double angleTo, int id) {
         JSONObject objJoin = new JSONObject();
         try {
@@ -661,36 +676,41 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
             e.printStackTrace();
         }
     }
+
     private void getInfor(final int id) {
         Call<ApiResponse<User>> getInfo = ApiUtils.getRootApi().create(GoiXeOmAPI.class).getInfor(ApiConstants.API_KEY, id);
         getInfo.enqueue(new CallBackCustom<ApiResponse<User>>(this, new OnResponse<ApiResponse<User>>() {
             @Override
             public void onResponse(ApiResponse<User> object) {
                 if (object.getData() != null) {
-                    LogUtils.e("Get infor from socket status driver now : "+ object.getData().getStatus() + "driver in booking : "+ object.getData().getIsInBooking());
-                    if(object.getData().getStatus() == 2 && mSetting.getBoolean(Constants.USER_TAP_ON,true)) {
-                        updateStatusDriver(1,object.getData().getId());
+                    LogUtils.e("Get infor from socket status driver now : " + object.getData().getStatus() + "driver in booking : " + object.getData().getIsInBooking());
+                    if (object.getData().getStatus() == 2 && mSetting.getBoolean(Constants.USER_TAP_ON, true)) {
+                        updateStatusDriver(1, object.getData().getId());
                     }
-                    if(object.getData().getIsInBooking()==0 && mSetting.getBoolean(Constants.USER_TAP_ON,true)){
-                        updateStatusDriver(1,object.getData().getId());
+                    if (object.getData().getIsInBooking() == 0 && mSetting.getBoolean(Constants.USER_TAP_ON, true)) {
+                        updateStatusDriver(1, object.getData().getId());
                     }
                 } else {
                 }
             }
         }));
     }
+
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         LogUtils.e("onStartCommand");
         reconection();
         return START_STICKY;
     }
+
     public Socket getSocket() {
         return this.socket;
     }
+
     public void setSocket(Socket socket) {
         this.socket = socket;
     }
+
     @Override
     public void onTaskRemoved(Intent rootIntent) {
         Intent intent = new Intent(getApplicationContext(), SocketClient.class);
@@ -710,12 +730,14 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
         MainApplication.getInstance().setmUser(null);
         ((NotificationManager) getSystemService(NOTIFICATION_SERVICE)).cancel(2);
     }
+
     //GPS
     public static final String ACTION_LOCATION_UPDATE = "1";
     private static Location _location;
     private GoogleApiClient _gac;
     private float mCurrentDegree = 0f;
     Random rand = new Random(System.currentTimeMillis());
+
     public void onLocationChanged(final Location arg0) {
         LatLng oldLatlng = new LatLng(arg0.getLatitude(), arg0.getLongitude());
 //        if (_location != null) {
@@ -731,42 +753,42 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
 //                ApiResponse<List<Routes>> object = response.body();
 //                if (object.getRoutes() != null && object.getRoutes().size() > 0 && object.getRoutes().get(0).getLegs() != null && object.getRoutes().get(0).getLegs().size() > 0) {
 //                    LatLng latLng = new LatLng(object.getRoutes().get(0).getLegs().get(0).getStart_location().getLat(), object.getRoutes().get(0).getLegs().get(0).getStart_location().getLng());
-                    LatLng latLng = new LatLng(arg0.getLatitude(), arg0.getLongitude());
-                    if (_location != null) {
-                        //mCurrentDegree = MapUtils.bearingBetweenLocations(latLng, new LatLng(_location.getLatitude(), _location.getLongitude()));
-                        mCurrentDegree= rand.nextInt(360) + 1;
-                    }
+        LatLng latLng = new LatLng(arg0.getLatitude(), arg0.getLongitude());
+        if (_location != null) {
+            //mCurrentDegree = MapUtils.bearingBetweenLocations(latLng, new LatLng(_location.getLatitude(), _location.getLongitude()));
+            mCurrentDegree = rand.nextInt(360) + 1;
+        }
 //                    if (_location != null && _location.getLongitude() == latLng.longitude && _location.getLatitude() == latLng.latitude)
 //                        return;
-                    if (_location == null) _location = new Location("");
-                    _location.setLatitude(latLng.latitude);
-                    _location.setLongitude(latLng.longitude);
-                    Intent i = new Intent(ACTION_LOCATION_UPDATE);
-                    i.putExtra(Constants.LOCATION, _location);
-                    i.putExtra(Constants.ANGLE_TO, mCurrentDegree);
-                    LogUtils.e("Update location : " + _location.getLatitude() + " - " + _location.getLongitude() + "- bearing : " + mCurrentDegree);
-                    mSetting.put(Constants.LAT, (float) _location.getLatitude());
-                    mSetting.put(Constants.LNG, (float) _location.getLongitude());
-                    MainApplication.getInstance().setmLocation(_location);
-                    sendBroadcast(i);
-                    int idDriver = mSetting.getInt(Constants.ID);
-                    int idTrip = mSetting.getInt(Constants.IDTRIP);
-                    int idUser = mSetting.getInt(Constants.IDUSER);
-                    boolean statusStart = mSetting.getBoolean(Constants.ISSTART);
-                    boolean statusGoin = mSetting.getBoolean(Constants.ISGOIN);
-                    if (socket == null || idDriver == -1) return;
-                    updateLatlngAngle(_location.getLatitude(), _location.getLongitude(), mCurrentDegree, mCurrentDegree, idDriver);
+        if (_location == null) _location = new Location("");
+        _location.setLatitude(latLng.latitude);
+        _location.setLongitude(latLng.longitude);
+        Intent i = new Intent(ACTION_LOCATION_UPDATE);
+        i.putExtra(Constants.LOCATION, _location);
+        i.putExtra(Constants.ANGLE_TO, mCurrentDegree);
+        LogUtils.e("Update location : " + _location.getLatitude() + " - " + _location.getLongitude() + "- bearing : " + mCurrentDegree);
+        mSetting.put(Constants.LAT, (float) _location.getLatitude());
+        mSetting.put(Constants.LNG, (float) _location.getLongitude());
+        MainApplication.getInstance().setmLocation(_location);
+        sendBroadcast(i);
+        int idDriver = mSetting.getInt(Constants.ID);
+        int idTrip = mSetting.getInt(Constants.IDTRIP);
+        int idUser = mSetting.getInt(Constants.IDUSER);
+        boolean statusStart = mSetting.getBoolean(Constants.ISSTART);
+        boolean statusGoin = mSetting.getBoolean(Constants.ISGOIN);
+        if (socket == null || idDriver == -1) return;
+        updateLatlngAngle(_location.getLatitude(), _location.getLongitude(), mCurrentDegree, mCurrentDegree, idDriver);
 
-                    if (statusGoin && idTrip != -1 && idUser != -1) {
-                        updateStatusBooking(SocketConstants.STATUS_ONGOING, idTrip, idDriver, idUser, _location.getLatitude(), _location.getLongitude());
-                        return;
-                    }
-                    if (statusStart && idTrip != -1 && idUser != -1) {
-                        updateStatusBooking(SocketConstants.STATUS_START, idTrip, idDriver, idUser, _location.getLatitude(), _location.getLongitude());
-                        return;
+        if (statusGoin && idTrip != -1 && idUser != -1) {
+            updateStatusBooking(SocketConstants.STATUS_ONGOING, idTrip, idDriver, idUser, _location.getLatitude(), _location.getLongitude());
+            return;
+        }
+        if (statusStart && idTrip != -1 && idUser != -1) {
+            updateStatusBooking(SocketConstants.STATUS_START, idTrip, idDriver, idUser, _location.getLatitude(), _location.getLongitude());
+            return;
 //                    }
 //                }
-            }
+        }
 
 //            @Override
 //            public void onFailure(Call<ApiResponse<List<Routes>>> call, Throwable t) {
@@ -776,27 +798,32 @@ public class SocketClient extends Service implements GoogleApiClient.ConnectionC
 
 
     }
+
     public void requestLocation() {
         LogUtils.e("request location now");
         LocationRequest lr = LocationRequest.create();
         lr.setPriority(100);
-        lr.setInterval(mSetting.getLong(Constants.TIME_UPDATE,30000));
+        lr.setInterval(mSetting.getLong(Constants.TIME_UPDATE, 30000));
         if (ContextCompat.checkSelfPermission(this, "android.permission.ACCESS_FINE_LOCATION") == 0 || ContextCompat.checkSelfPermission(this, "android.permission.ACCESS_COARSE_LOCATION") == 0) {
             LocationServices.FusedLocationApi.requestLocationUpdates(this._gac, lr, (LocationListener) this);
         }
     }
+
     @Override
     public void onConnected(@Nullable Bundle bundle) {
         requestLocation();
     }
+
     public void onConnectionSuspended(int arg0) {
         LocationServices.FusedLocationApi.removeLocationUpdates(this._gac, (LocationListener) this);
     }
+
     private void stopLocationUpdate() {
         if (this._gac != null) {
             this._gac.disconnect();
         }
     }
+
     public void onConnectionFailed(ConnectionResult connectionResult) {
         switch (connectionResult.getErrorCode()) {
         }

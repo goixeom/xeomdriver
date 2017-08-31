@@ -77,6 +77,7 @@ public class Constants {
     public static final String STATUS_DRIVER = "status_driver";
     public static final String TYPE_SERVICE = "type_service";
     public static final String TIME_UPDATE = "time_update";
+    public static final String TIME_WAIT = "time_wait";
 
 
     public static int POS_LOGIN = 0;

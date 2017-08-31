@@ -22,7 +22,7 @@ android {
         applicationId "com.goixeomdriver"
         minSdkVersion 19
         targetSdkVersion 25
-        versionCode 17
+        versionCode 18
         versionName "2.0"
         multiDexEnabled true
         android.defaultConfig.vectorDrawables.useSupportLibrary = true

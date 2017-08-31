@@ -16,9 +16,19 @@ public class AppConfig {
     private String car;
     @SerializedName("time_update")
     private long timeUpdate;
+    @SerializedName("time_wait")
+    private long timeWait;
 
     public long getTimeUpdate() {
         return timeUpdate;
+    }
+
+    public long getTimeWait() {
+        return timeWait;
+    }
+
+    public void setTimeWait(long timeWait) {
+        this.timeWait = timeWait;
     }
 
     public void setTimeUpdate(long timeUpdate) {

@@ -173,6 +173,7 @@ public class SplashScreenActivity extends BaseAuthActivity  {
             @Override
             public void onResponse(ApiResponse<AppConfig> object) {
                 getmSetting().put(Constants.TIME_UPDATE, object.getData().getTimeUpdate());
+                getmSetting().put(Constants.TIME_WAIT, object.getData().getTimeWait());
                 downloadImage(object.getData());
             }
         }));
