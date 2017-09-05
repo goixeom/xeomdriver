@@ -672,8 +672,12 @@ public class MapsActivity extends BaseActivity
                     getmSetting().put(Constants.TYPE_USER_STR, object.getData().getType());
                     mTvName.setText(object.getData().getName());
                     mTvNumber.setText(object.getData().getNumber());
-                    Glide.with(MapsActivity.this).load("https://" + object.getData().getAvatar()).asBitmap().into(mAvt);
-                    Glide.with(MapsActivity.this).load("https://" + object.getData().getLink()).asBitmap().into(imgType);
+                    try {
+                        Glide.with(MapsActivity.this).load("https://" + object.getData().getAvatar()).asBitmap().into(mAvt);
+                        Glide.with(MapsActivity.this).load("https://" + object.getData().getLink()).asBitmap().into(imgType);
+                    }catch (Exception e){
+                        e.printStackTrace();
+                    }
                     tvType.setText(getType(object.getData().getType()));
                     mTvVote.setText(object.getData().getVote() + "");
                     tvNumberVote.setText(object.getData().getNumber_vote() + " Bình chọn");

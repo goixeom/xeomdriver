@@ -22,7 +22,7 @@ android {
         applicationId "com.goixeomdriver"
         minSdkVersion 19
         targetSdkVersion 25
-        versionCode 18
+        versionCode 19
         versionName "2.0"
         multiDexEnabled true
         android.defaultConfig.vectorDrawables.useSupportLibrary = true
@@ -48,7 +48,7 @@ dependencies {
         // exclusion is not necessary, but generally a good idea.
         exclude group: 'com.google.android', module: 'support-v4'
     }
-    compile('com.github.nkzawa:socket.io-client:0.5.0') {//0.4.1
+    compile('com.github.nkzawa:socket.io-client:0.6.0') {//0.4.1
         exclude group: 'org.json', module: 'json'
     }
 

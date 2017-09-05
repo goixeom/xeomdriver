@@ -58,7 +58,7 @@ public class SliderInfoActivity extends BaseAuthActivity {
             int status = getIntent().getIntExtra(Constants.STATUS, -1);
             if (status == Constants.KICKOUT) {
                 removeDataUser();
-                showDialogErrorContent("Tài khoản đã đăng nhập trên một thiết bị khác");
+              //  showDialogErrorContent("Tài khoản đã đăng nhập trên một thiết bị khác");
             }
             if (status == Constants.BLOCK) {
                 removeDataUser();

@@ -307,7 +307,7 @@ LogUtils.e(smsMessageStr);
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         if (requestCode == 10000 ){
-            if(grantResults[0] == PackageManager.PERMISSION_DENIED || grantResults[1] == PackageManager.PERMISSION_DENIED){
+            if(grantResults[0] == PackageManager.PERMISSION_DENIED){
                 showDialogPermission();
             }else{
                 Log.e("DB", "PERMISSION GRANTED");
